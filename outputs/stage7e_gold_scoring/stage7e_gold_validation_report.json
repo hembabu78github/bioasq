@@ -1,0 +1,24 @@
+{
+  "generated_at_utc": "2026-07-26T15:31:52.491223+00:00",
+  "status": "pass",
+  "checks": {
+    "accepted_stage7d_results_hash_is_unchanged": true,
+    "twenty_four_development_questions_present": true,
+    "forty_eight_text_only_arms_present": true,
+    "only_bge_and_hybrid_are_scored": true,
+    "six_questions_per_type_per_condition": true,
+    "all_gold_answers_found": true,
+    "all_scores_are_between_zero_and_one": true,
+    "four_type_balanced_composites_present": true,
+    "paired_bootstrap_is_recorded": true,
+    "route_selection_uses_frozen_rule": true,
+    "graph_route_remains_excluded": true,
+    "sealed_test_not_accessed": true
+  },
+  "counts": {
+    "questions": 24,
+    "logical_arms": 48,
+    "selected_route": "bge_text_only"
+  },
+  "next_gate": "Upload the four Stage 7E outputs for review. Do not prepare or access the sealed test until the text-only route decision is accepted and hash-frozen."
+}

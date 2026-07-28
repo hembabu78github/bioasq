@@ -1,0 +1,29 @@
+{
+  "generated_at_utc": "2026-07-26T01:48:27.211094+00:00",
+  "status": "fail",
+  "checks": {
+    "routing_stress_has_8_questions": true,
+    "two_questions_per_question_type": true,
+    "uncertainty_distribution_3_2_3": true,
+    "four_graph_stress_and_four_controls": true,
+    "eight_graph_outputs_present": true,
+    "every_selector_returns_five_unique_snippets": true,
+    "selected_ids_are_from_candidate_pool": true,
+    "at_least_two_graph_stress_routes_are_eligible": false,
+    "every_eligible_graph_route_changes_evidence": true,
+    "no_direct_control_is_graph_routed": true,
+    "graph_insufficient_cases_are_not_graph_routed": true,
+    "no_answer_or_verifier_calls_made": true,
+    "sealed_test_not_accessed": true
+  },
+  "counts": {
+    "questions": 8,
+    "graph_stress_route_eligible_count": 1,
+    "risk_route_counts": {
+      "bge": 3,
+      "graph_coverage": 1,
+      "hybrid": 4
+    }
+  },
+  "next_gate": "Only after this routing-only gate passes should graph-conditioned answer generation be rerun."
+}

@@ -1,0 +1,35 @@
+{
+  "generated_at_utc": "2026-07-26T12:48:40.270599+00:00",
+  "status": "pass",
+  "checks": {
+    "balanced_24_question_sample_present": true,
+    "six_questions_per_type": true,
+    "six_list_questions_received_route_evaluation": true,
+    "all_non_list_questions_use_hybrid": true,
+    "graph_route_is_list_only": true,
+    "at_least_two_graph_routes_are_frozen": true,
+    "every_graph_route_changes_evidence": true,
+    "every_graph_route_has_exclusive_value": true,
+    "zero_coverage_novelty_never_creates_route": true,
+    "every_question_has_five_unique_selected_snippets": true,
+    "graph_is_marked_hidden_from_downstream": true,
+    "no_answer_or_verifier_calls_made": true,
+    "no_graph_payload_supplied_downstream": true,
+    "sealed_test_not_accessed": true
+  },
+  "counts": {
+    "questions": 24,
+    "list_questions": 6,
+    "graph_routes": 3,
+    "graph_route_stage7_ids": [
+      "S7Q-009",
+      "S7Q-010",
+      "S7Q-011"
+    ],
+    "route_counts": {
+      "graph_selected_text_only": 3,
+      "hybrid_text_only": 21
+    }
+  },
+  "next_gate": "Upload the four route-freeze files for review. Do not start the 72-arm answer evaluation until the route manifest is accepted."
+}

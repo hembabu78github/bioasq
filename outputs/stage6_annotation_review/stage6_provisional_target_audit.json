@@ -1,0 +1,22 @@
+{
+  "generated_at_utc": "2026-07-25",
+  "claim_count": 48,
+  "provisional_target_match_count": 47,
+  "provisional_target_mismatch_count": 1,
+  "provisional_target_accuracy_against_locked_human_labels": 0.979167,
+  "locked_human_label_counts": {
+    "contradicted": 25,
+    "insufficient_evidence": 23
+  },
+  "mismatches": [
+    {
+      "audit_id": "ADV-026",
+      "provisional_target_label": "insufficient_evidence",
+      "locked_human_label": "contradicted",
+      "claim": "lncRNAs are derived from parts of ancestral protein\u2011coding genes in approximately 55% of cases.",
+      "annotator_A_rationale": "The evidence states \"~55 annotated conserved human lncRNAs\" (a count), not 55% of cases. The claim misinterprets the number as a percentage, which is not supported and directly contradicts the wording (count vs. percentage).",
+      "annotator_B_rationale": "The evidence says \"~55 annotated conserved human lncRNAs\" which is a count of 55 lncRNAs, not 55% of cases. The claim fundamentally misinterprets the number as a percentage, which contradicts what the evidence actually states."
+    }
+  ],
+  "scientific_note": "Generated target labels were provisional and were not shown to annotators. The human labels are the reference standard."
+}

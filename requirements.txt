@@ -1,0 +1,7 @@
+# Consolidated runtime dependencies from the stage-specific requirement files.
+groq>=1.6,<2
+python-dotenv>=1.0,<2
+psutil>=5.9.8
+numpy>=1.26,<3
+sentence-transformers>=5.0,<6
+json-repair>=0.46,<1

@@ -1,0 +1,38 @@
+{
+  "generated_at_utc": "2026-07-25T22:19:16.887471+00:00",
+  "status": "fail",
+  "checks": {
+    "smoke_has_8_questions": true,
+    "two_questions_per_question_type": true,
+    "smoke_uncertainty_distribution_3_2_3": true,
+    "four_graph_and_four_control_questions": true,
+    "32_condition_answers_present": true,
+    "every_question_has_four_conditions": true,
+    "all_answers_and_claims_complete": true,
+    "all_verifier_outputs_semantically_complete": true,
+    "all_conditions_log_evidence_ids": true,
+    "graph_changes_evidence_in_at_least_two_graph_cases": false,
+    "sealed_test_not_accessed": true
+  },
+  "counts": {
+    "questions": 8,
+    "answers": 32,
+    "question_type_counts": {
+      "factoid": 2,
+      "list": 2,
+      "summary": 2,
+      "yesno": 2
+    },
+    "uncertainty_counts": {
+      "high": 3,
+      "low": 3,
+      "medium": 2
+    },
+    "graph_role_counts": {
+      "graph_suitable_candidate": 4,
+      "non_graph_control_candidate": 4
+    },
+    "graph_suitable_evidence_change_count": 1
+  },
+  "next_gate": "Review smoke results before running the 24-question full development experiment."
+}

@@ -1,0 +1,27 @@
+{
+  "generated_at_utc": "2026-07-26T03:12:03.707273+00:00",
+  "status": "pass",
+  "checks": {
+    "sample_has_6_questions": true,
+    "sample_has_8_answer_arms": true,
+    "six_hybrid_and_two_graph_answers": true,
+    "all_expected_arms_completed": true,
+    "graph_route_is_list_only": true,
+    "no_summary_question_uses_graph": true,
+    "graph_pairs_use_changed_evidence": true,
+    "all_answers_and_verifications_complete": true,
+    "final_disposition_matches_frozen_rule": true,
+    "no_non_supported_claim_is_released": true,
+    "paired_comparison_has_two_questions": true,
+    "sealed_test_not_accessed": true
+  },
+  "counts": {
+    "questions": 6,
+    "answers": 8,
+    "hybrid_answers": 6,
+    "graph_answers": 2,
+    "final_releases": 6,
+    "final_abstentions": 2
+  },
+  "next_gate": "Review the two paired graph-versus-hybrid answers and complete the blinded human claim audit before any efficacy claim."
+}

@@ -1,0 +1,45 @@
+{
+  "summary": {
+    "generated_at_utc": "2026-07-26",
+    "stage7c_v1_technical_validation": "pass",
+    "stage7c_v1_scientific_review": "fail_requires_evidence_closure",
+    "question_count": 6,
+    "answer_count": 8,
+    "graph_answer_count": 2,
+    "unique_hidden_graph_evidence_ids": 4,
+    "claims_with_hidden_evidence_citations": 3,
+    "key_findings": [
+      "Both graph arms supplied a graph built from the 20-candidate pool while displaying only five selected evidence snippets.",
+      "S7Q-009 graph provenance referenced three snippet IDs outside the displayed evidence package.",
+      "S7Q-011 graph provenance referenced one snippet ID outside the displayed evidence package.",
+      "Three automated claim verifications cited at least one hidden snippet ID.",
+      "The S7Q-011 prostate-cancer evidence describes TWIST1 phosphorylation/heterodimerization in prostate cancer cells, not a TWIST1 mutation association.",
+      "The same-model verifier accepted graph assertions as support, so the automated graph advantage is not scientifically valid."
+    ],
+    "decision": "Retain Stage 7C V1 as an auditable provenance-failure pilot. Rerun only the two graph arms with graph-selected text evidence but without graph assertions. Reuse the six valid hybrid baselines."
+  },
+  "records": [
+    {
+      "stage7_id": "S7Q-009",
+      "route": "selective_graph",
+      "selected_evidence_count": 5,
+      "graph_referenced_evidence_count": 7,
+      "hidden_graph_evidence_count": 3,
+      "claims_with_hidden_evidence_citations": 2,
+      "automated_supported_claim_count": 6,
+      "final_disposition": "release",
+      "scientific_issue": "Graph assertions and verifier citations were not closed to the five displayed evidence snippets."
+    },
+    {
+      "stage7_id": "S7Q-011",
+      "route": "selective_graph",
+      "selected_evidence_count": 5,
+      "graph_referenced_evidence_count": 5,
+      "hidden_graph_evidence_count": 1,
+      "claims_with_hidden_evidence_citations": 1,
+      "automated_supported_claim_count": 3,
+      "final_disposition": "release",
+      "scientific_issue": "Graph assertions and verifier citations were not closed to the five displayed evidence snippets."
+    }
+  ]
+}

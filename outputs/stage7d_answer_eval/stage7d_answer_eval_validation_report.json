@@ -1,0 +1,30 @@
+{
+  "generated_at_utc": "2026-07-26T14:16:48.545121+00:00",
+  "status": "pass",
+  "checks": {
+    "accepted_route_hash_is_unchanged": true,
+    "twenty_four_questions_present": true,
+    "seventy_two_logical_arms_present": true,
+    "twenty_four_arms_per_condition": true,
+    "three_frozen_graph_routes_preserved": true,
+    "non_graph_adaptive_arms_reuse_hybrid_jobs": true,
+    "graph_adaptive_arms_use_changed_jobs_and_evidence": true,
+    "all_answers_and_verifications_complete": true,
+    "all_verifier_citations_are_displayed_E1_to_E5": true,
+    "graph_is_never_supplied_downstream": true,
+    "final_disposition_matches_frozen_rule": true,
+    "no_non_supported_claim_is_released": true,
+    "paired_file_contains_twenty_four_questions": true,
+    "logical_deduplication_is_recorded": true,
+    "sealed_test_not_accessed": true
+  },
+  "counts": {
+    "questions": 24,
+    "logical_arms": 72,
+    "unique_execution_jobs": 51,
+    "graph_routes": 3,
+    "final_releases": 54,
+    "final_abstentions": 18
+  },
+  "next_gate": "Perform a stratified blinded human audit of graph-routed pairs, changed answers, releases, abstentions and verifier disagreements. Do not access the sealed test yet."
+}

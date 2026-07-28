@@ -1,0 +1,30 @@
+{
+  "generated_at_utc": "2026-07-25",
+  "status": "routing_redesign_required",
+  "structural_smoke_checks_passed": 10,
+  "structural_smoke_checks_total": 11,
+  "question_count": 8,
+  "answer_count": 32,
+  "graph_suitable_question_count": 4,
+  "graph_suitable_evidence_change_count": 1,
+  "control_question_count": 4,
+  "control_evidence_change_count": 4,
+  "graph_sufficient_false_question_ids": [
+    "S7Q-009",
+    "S7Q-023"
+  ],
+  "risk_route_used_graph_when_graph_insufficient": [
+    "S7Q-009",
+    "S7Q-023"
+  ],
+  "abstention_count_across_32_answers": 0,
+  "non_supported_verifier_claim_count": 10,
+  "diagnosis": [
+    "The wording-based graph-role heuristic classified several direct single-relation questions as graph-suitable.",
+    "The fixed graph condition changed evidence more often for controls than for graph-role questions.",
+    "Risk-adaptive routing did not require graph_sufficient=true before selecting the graph route.",
+    "The LLM supplied ranked_snippet_ids directly; there was no deterministic graph-coverage selector.",
+    "Selective abstention was not applied after verification; all 32 answers were released despite non-supported claims."
+  ],
+  "decision": "Retain Smoke V1 as a failed technical pilot. Do not use its condition comparisons as GraphRAG performance results. Run a graph-routing-only V2 stress test before any more answer generation."
+}

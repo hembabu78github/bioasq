@@ -1,0 +1,214 @@
+{
+  "generated_at_utc": "2026-07-25T19:33:03.086556+00:00",
+  "status": "pass",
+  "criteria": {
+    "all_configurations_have_76_predictions": true,
+    "all_predictions_have_nonempty_rationales": true,
+    "all_hardened_predictions_have_qualifier_checks": true
+  },
+  "repaired_groups_by_configuration": {
+    "original_prompt_same_model": [
+      {
+        "configuration": "original_prompt_same_model",
+        "group_id": "bcc85bf63b34df8f597f58b2",
+        "group_index": 1,
+        "claim_count": 4,
+        "audit_ids": [
+          "ADV-003",
+          "ADV-004",
+          "ADV-005",
+          "ADV-006"
+        ],
+        "max_tokens_used": 1850
+      },
+      {
+        "configuration": "original_prompt_same_model",
+        "group_id": "a02773d0e9122fc48004e6e1",
+        "group_index": 7,
+        "claim_count": 4,
+        "audit_ids": [
+          "ADV-045",
+          "ADV-046",
+          "ADV-047",
+          "ADV-048"
+        ],
+        "max_tokens_used": 1850
+      },
+      {
+        "configuration": "original_prompt_same_model",
+        "group_id": "f223c5ef8acd88aa47e71f7c",
+        "group_index": 9,
+        "claim_count": 2,
+        "audit_ids": [
+          "ADV-001",
+          "ADV-002"
+        ],
+        "max_tokens_used": 1250
+      },
+      {
+        "configuration": "original_prompt_same_model",
+        "group_id": "894b605f98666f7ce1e4437a",
+        "group_index": 11,
+        "claim_count": 4,
+        "audit_ids": [
+          "ADV-007",
+          "ADV-008",
+          "ADV-019",
+          "ADV-020"
+        ],
+        "max_tokens_used": 1850
+      },
+      {
+        "configuration": "original_prompt_same_model",
+        "group_id": "6ae445e33902a3a89c2bc13f",
+        "group_index": 18,
+        "claim_count": 6,
+        "audit_ids": [
+          "ADV-033",
+          "ADV-034",
+          "ADV-035",
+          "ADV-036",
+          "ADV-037",
+          "ADV-038"
+        ],
+        "max_tokens_used": 2450
+      },
+      {
+        "configuration": "original_prompt_same_model",
+        "group_id": "8f1aa7f30786679d8cec9794",
+        "group_index": 19,
+        "claim_count": 3,
+        "audit_ids": [
+          "AUD-020",
+          "AUD-021",
+          "AUD-022"
+        ],
+        "max_tokens_used": 1550
+      }
+    ],
+    "hardened_prompt_same_model": [
+      {
+        "configuration": "hardened_prompt_same_model",
+        "group_id": "3fc8149a5b70d7a1c614a865",
+        "group_index": 3,
+        "claim_count": 2,
+        "audit_ids": [
+          "ADV-039",
+          "ADV-040"
+        ],
+        "max_tokens_used": 1250
+      },
+      {
+        "configuration": "hardened_prompt_same_model",
+        "group_id": "1b7988258bac154ad965f0e2",
+        "group_index": 5,
+        "claim_count": 8,
+        "audit_ids": [
+          "ADV-021",
+          "ADV-022",
+          "ADV-023",
+          "ADV-024",
+          "ADV-025",
+          "ADV-026",
+          "ADV-027",
+          "ADV-028"
+        ],
+        "max_tokens_used": 3050
+      },
+      {
+        "configuration": "hardened_prompt_same_model",
+        "group_id": "7d5ec44c338c48bceaed1a48",
+        "group_index": 6,
+        "claim_count": 4,
+        "audit_ids": [
+          "AUD-014",
+          "AUD-015",
+          "AUD-016",
+          "AUD-017"
+        ],
+        "max_tokens_used": 1850
+      },
+      {
+        "configuration": "hardened_prompt_same_model",
+        "group_id": "a02773d0e9122fc48004e6e1",
+        "group_index": 7,
+        "claim_count": 4,
+        "audit_ids": [
+          "ADV-045",
+          "ADV-046",
+          "ADV-047",
+          "ADV-048"
+        ],
+        "max_tokens_used": 1850
+      },
+      {
+        "configuration": "hardened_prompt_same_model",
+        "group_id": "894b605f98666f7ce1e4437a",
+        "group_index": 11,
+        "claim_count": 4,
+        "audit_ids": [
+          "ADV-007",
+          "ADV-008",
+          "ADV-019",
+          "ADV-020"
+        ],
+        "max_tokens_used": 1850
+      },
+      {
+        "configuration": "hardened_prompt_same_model",
+        "group_id": "c0745aedb1eedb761051ed98",
+        "group_index": 14,
+        "claim_count": 4,
+        "audit_ids": [
+          "ADV-041",
+          "ADV-042",
+          "ADV-043",
+          "ADV-044"
+        ],
+        "max_tokens_used": 1850
+      },
+      {
+        "configuration": "hardened_prompt_same_model",
+        "group_id": "2c5b07eac0d7c9e0e58219de",
+        "group_index": 16,
+        "claim_count": 4,
+        "audit_ids": [
+          "ADV-029",
+          "ADV-030",
+          "ADV-031",
+          "ADV-032"
+        ],
+        "max_tokens_used": 1850
+      },
+      {
+        "configuration": "hardened_prompt_same_model",
+        "group_id": "6ae445e33902a3a89c2bc13f",
+        "group_index": 18,
+        "claim_count": 6,
+        "audit_ids": [
+          "ADV-033",
+          "ADV-034",
+          "ADV-035",
+          "ADV-036",
+          "ADV-037",
+          "ADV-038"
+        ],
+        "max_tokens_used": 2450
+      },
+      {
+        "configuration": "hardened_prompt_same_model",
+        "group_id": "8f1aa7f30786679d8cec9794",
+        "group_index": 19,
+        "claim_count": 3,
+        "audit_ids": [
+          "AUD-020",
+          "AUD-021",
+          "AUD-022"
+        ],
+        "max_tokens_used": 1550
+      }
+    ],
+    "hardened_prompt_alternate_model": []
+  },
+  "scientific_note": "The initial Stage 6 run silently converted omitted verifier items to insufficient_evidence. This report confirms that the repaired outputs contain one complete, reasoned verification per claim."
+}

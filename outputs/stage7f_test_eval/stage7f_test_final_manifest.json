@@ -1,0 +1,13 @@
+{
+  "generated_at_utc": "2026-07-27T16:02:13.524127+00:00",
+  "one_time_sealed_test_evaluation": true,
+  "selected_route": "bge_text_only",
+  "test_ids_sha256": "925e8029179c57a6f7c3bb6a1c120d90dd3c497a968c1b2a66fe65df5b17c0f3",
+  "jobs_sha256": "78ccc61b8e08e91065cdd716be65c9a3add757d104e2adf42743ffb3e5c5ef01",
+  "rankings_sha256": "a6f747df08d929a11ba3ca679f3ee28e7ca6bc86f0772b03e030b144b9aca54a",
+  "results_sha256": "0393862ce5353e7fa097d298501440eb7692bf15f614d3c11233341fdc09832d",
+  "summary_sha256": "1eceebb593f6da8cfeea000a5644086540bd755249822b49e6d194e37df3f8a3",
+  "retrieval_summary_sha256": "b070e603becd095038f3984eff19a97ed93f7dc4375ca92c4c1b4d0f2a01d03a",
+  "test_question_count": 706,
+  "no_post_test_tuning": true
+}

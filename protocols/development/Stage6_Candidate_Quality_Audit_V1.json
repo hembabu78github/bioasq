@@ -1,0 +1,29 @@
+{
+  "status": "corrected",
+  "original_structural_checks": {
+    "candidate_count": 48,
+    "provisional_balance": "24 contradicted / 24 insufficient_evidence",
+    "packets_blinded": true,
+    "packet_orders_randomized": true
+  },
+  "scientific_review": {
+    "candidate_replacements": [
+      "ADV-001",
+      "ADV-003",
+      "ADV-012",
+      "ADV-017",
+      "ADV-019",
+      "ADV-020",
+      "ADV-028",
+      "ADV-045",
+      "ADV-047"
+    ],
+    "candidate_replacement_count": 9,
+    "provenance_repairs": [
+      "ADV-008",
+      "ADV-040"
+    ],
+    "duplicates_after_patch": 0
+  },
+  "decision": "Do not use the original annotation packets. Use the corrected Annotator A and B packets in this patch."
+}

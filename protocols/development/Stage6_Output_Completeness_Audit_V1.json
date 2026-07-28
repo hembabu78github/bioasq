@@ -1,0 +1,73 @@
+{
+  "status": "repair_required",
+  "structural_validation_status": "pass",
+  "total_predictions": 228,
+  "total_empty_rationale_predictions": 38,
+  "configuration_audit": [
+    {
+      "configuration": "hardened_prompt_alternate_model",
+      "prediction_count": 76,
+      "empty_rationale_count": 0,
+      "affected_group_count": 0,
+      "affected_audit_ids": [],
+      "scientifically_complete": true
+    },
+    {
+      "configuration": "hardened_prompt_same_model",
+      "prediction_count": 76,
+      "empty_rationale_count": 27,
+      "affected_group_count": 7,
+      "affected_audit_ids": [
+        "ADV-008",
+        "ADV-019",
+        "ADV-020",
+        "ADV-021",
+        "ADV-022",
+        "ADV-023",
+        "ADV-024",
+        "ADV-025",
+        "ADV-026",
+        "ADV-027",
+        "ADV-028",
+        "ADV-031",
+        "ADV-032",
+        "ADV-036",
+        "ADV-037",
+        "ADV-038",
+        "ADV-040",
+        "ADV-042",
+        "ADV-043",
+        "ADV-044",
+        "ADV-046",
+        "ADV-047",
+        "ADV-048",
+        "AUD-016",
+        "AUD-017",
+        "AUD-021",
+        "AUD-022"
+      ],
+      "scientifically_complete": false
+    },
+    {
+      "configuration": "original_prompt_same_model",
+      "prediction_count": 76,
+      "empty_rationale_count": 11,
+      "affected_group_count": 5,
+      "affected_audit_ids": [
+        "ADV-002",
+        "ADV-005",
+        "ADV-006",
+        "ADV-019",
+        "ADV-020",
+        "ADV-035",
+        "ADV-036",
+        "ADV-037",
+        "ADV-038",
+        "ADV-048",
+        "AUD-022"
+      ],
+      "scientifically_complete": false
+    }
+  ],
+  "impact": "Omitted verifier items were silently converted to insufficient_evidence, so the current metrics and ranking are not scientifically reliable."
+}

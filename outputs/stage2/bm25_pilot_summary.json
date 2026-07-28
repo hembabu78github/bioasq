@@ -1,0 +1,90 @@
+{
+  "generated_at_utc": "2026-07-25T04:40:10.925167+00:00",
+  "method": "Pure-Python BM25 over global deduplicated snippet bank",
+  "parameters": {
+    "k1": 1.5,
+    "b": 0.75,
+    "top_k": 20
+  },
+  "candidate_snippet_count": 52699,
+  "pilot_question_count": 80,
+  "index_build_latency_ms": 1310.58,
+  "average_document_length_tokens": 30.375,
+  "overall": {
+    "question_count": 80,
+    "hit_rate_at_1": 0.7875,
+    "hit_rate_at_5": 0.9,
+    "hit_rate_at_10": 0.925,
+    "hit_rate_at_20": 0.95,
+    "mrr_at_20": 0.84129,
+    "mean_query_latency_ms": 94.063
+  },
+  "by_question_type": {
+    "factoid": {
+      "question_count": 20,
+      "hit_rate_at_1": 0.8,
+      "hit_rate_at_5": 0.95,
+      "hit_rate_at_10": 0.95,
+      "hit_rate_at_20": 1,
+      "mrr_at_20": 0.862778,
+      "mean_query_latency_ms": 91.685
+    },
+    "list": {
+      "question_count": 20,
+      "hit_rate_at_1": 0.75,
+      "hit_rate_at_5": 0.9,
+      "hit_rate_at_10": 0.95,
+      "hit_rate_at_20": 0.95,
+      "mrr_at_20": 0.825,
+      "mean_query_latency_ms": 142.819
+    },
+    "summary": {
+      "question_count": 20,
+      "hit_rate_at_1": 0.8,
+      "hit_rate_at_5": 0.85,
+      "hit_rate_at_10": 0.85,
+      "hit_rate_at_20": 0.9,
+      "mrr_at_20": 0.828571,
+      "mean_query_latency_ms": 79.578
+    },
+    "yesno": {
+      "question_count": 20,
+      "hit_rate_at_1": 0.8,
+      "hit_rate_at_5": 0.9,
+      "hit_rate_at_10": 0.95,
+      "hit_rate_at_20": 0.95,
+      "mrr_at_20": 0.84881,
+      "mean_query_latency_ms": 62.17
+    }
+  },
+  "by_evidence_risk_prior": {
+    "high": {
+      "question_count": 2,
+      "hit_rate_at_1": 0.5,
+      "hit_rate_at_5": 0.5,
+      "hit_rate_at_10": 0.5,
+      "hit_rate_at_20": 0.5,
+      "mrr_at_20": 0.5,
+      "mean_query_latency_ms": 149.055
+    },
+    "low": {
+      "question_count": 51,
+      "hit_rate_at_1": 0.803922,
+      "hit_rate_at_5": 0.901961,
+      "hit_rate_at_10": 0.941176,
+      "hit_rate_at_20": 0.960784,
+      "mrr_at_20": 0.850949,
+      "mean_query_latency_ms": 89.72098
+    },
+    "medium": {
+      "question_count": 27,
+      "hit_rate_at_1": 0.777778,
+      "hit_rate_at_5": 0.925926,
+      "hit_rate_at_10": 0.925926,
+      "hit_rate_at_20": 0.962963,
+      "mrr_at_20": 0.848325,
+      "mean_query_latency_ms": 98.191111
+    }
+  },
+  "interpretation": "Development retrieval baseline only. This does not evaluate answer generation, claim verification, graph reasoning or final test performance."
+}

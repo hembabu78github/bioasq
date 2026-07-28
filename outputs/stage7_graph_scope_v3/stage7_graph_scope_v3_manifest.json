@@ -1,0 +1,20 @@
+{
+  "generated_at_utc": "2026-07-26T02:56:33.682784+00:00",
+  "question_count": 6,
+  "question_type_counts": {
+    "list": 3,
+    "summary": 3
+  },
+  "candidate_pool_size": 20,
+  "selected_evidence_count": 5,
+  "expected_new_graph_calls": 4,
+  "reusable_v2_graphs": [
+    "S7Q-009",
+    "S7Q-017"
+  ],
+  "answer_generation_calls": 0,
+  "verification_calls": 0,
+  "success_gate": "At least two of six questions must have useful graph-exclusive evidence under the deterministic scope rule.",
+  "sample_sha256": "0af35feff63b09073750cd7b043658592cf6d664c372234f049dc13b2ab00b39",
+  "scientific_note": "Question selection uses pre-existing question structure only. V3 is architecture debugging and will not be reported as final efficacy."
+}

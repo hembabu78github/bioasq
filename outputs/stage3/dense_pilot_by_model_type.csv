@@ -1,0 +1,9 @@
+model_key,model_id,question_type,question_count,hit_rate_at_1,hit_rate_at_5,hit_rate_at_10,hit_rate_at_20,mrr_at_20,mean_query_encode_ms,mean_search_ms
+bge_small,BAAI/bge-small-en-v1.5,factoid,20,0.85,0.95,0.95,1,0.894167,25.168,5.124
+bge_small,BAAI/bge-small-en-v1.5,list,20,0.75,1,1,1,0.866667,25.5595,4.8855
+bge_small,BAAI/bge-small-en-v1.5,summary,20,0.8,0.95,1,1,0.868056,24.0335,5.0125
+bge_small,BAAI/bge-small-en-v1.5,yesno,20,0.9,1,1,1,0.941667,23.2745,4.8625
+pubmedbert,NeuML/pubmedbert-base-embeddings,factoid,20,0.5,0.75,0.8,0.8,0.6125,97.5145,9.7885
+pubmedbert,NeuML/pubmedbert-base-embeddings,list,20,0.7,0.8,0.9,0.9,0.750198,83.204,9.4015
+pubmedbert,NeuML/pubmedbert-base-embeddings,summary,20,0.6,0.65,0.7,0.8,0.629337,90.432,9.801
+pubmedbert,NeuML/pubmedbert-base-embeddings,yesno,20,0.9,0.95,0.95,0.95,0.916667,93.821,9.554

@@ -1,0 +1,15 @@
+{
+  "generated_at_utc": "2026-07-25T03:58:04.410880+00:00",
+  "seed": 20260725,
+  "selection_rule": "Keep one instance per exact normalised question body, shuffle deterministically within each type, select up to 20 per type.",
+  "selected_counts": {
+    "factoid": 20,
+    "list": 20,
+    "summary": 20,
+    "yesno": 20
+  },
+  "total_selected": 80,
+  "pilot_relative_path": "data\\processed\\pilot\\bioasq11_pilot_80.json",
+  "pilot_sha256": "f53a2a6f4b08a350bef31534e8583d7260d1031ea3c416549f025fe2a9305eb2",
+  "note": "Development pilot only; not a final evaluation split."
+}

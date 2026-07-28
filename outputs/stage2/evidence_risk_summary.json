@@ -1,0 +1,32 @@
+{
+  "generated_at_utc": "2026-07-25T04:40:01.662010+00:00",
+  "record_count": 4719,
+  "definition": "Transparent query-only evidence-risk prior. It estimates the likelihood that a minimal retrieval route will be insufficient. It is not a clinical harm score.",
+  "uses_gold_evidence_or_answers": false,
+  "labels": {
+    "high": 90,
+    "low": 3344,
+    "medium": 1285
+  },
+  "labels_by_question_type": {
+    "factoid": {
+      "low": 1384,
+      "medium": 33
+    },
+    "list": {
+      "high": 1,
+      "low": 713,
+      "medium": 187
+    },
+    "summary": {
+      "high": 89,
+      "medium": 1041
+    },
+    "yesno": {
+      "low": 1247,
+      "medium": 24
+    }
+  },
+  "rule_status": "Initial prior only. Route thresholds and predictive usefulness will be tuned and evaluated on development data before final freezing.",
+  "output_relative_path": "data\\processed\\stage2\\query_evidence_risk_prior.jsonl"
+}

@@ -1,0 +1,18 @@
+{
+  "generated_at_utc": "2026-07-26T02:58:21.977084+00:00",
+  "development_only": true,
+  "sealed_test_accessed": false,
+  "purpose": "Final graph-routing scope technical gate.",
+  "question_count": 6,
+  "graph_route_eligible_count": 2,
+  "eligible_question_ids": [
+    "S7Q-009",
+    "S7Q-011"
+  ],
+  "deterministic_model_flag_override_count": 1,
+  "reused_v2_graph_count": 2,
+  "new_graph_call_count": 4,
+  "answer_generation_call_count": 0,
+  "verification_call_count": 0,
+  "scientific_note": "Graph routing requires counterfactual relevant evidence that is not already covered by hybrid top five. Zero-coverage novelty cannot create eligibility."
+}

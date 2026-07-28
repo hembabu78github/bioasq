@@ -1,0 +1,45 @@
+{
+  "generated_at_utc": "2026-07-25T13:19:23.914954+00:00",
+  "model": "openai/gpt-oss-20b",
+  "question_count": 12,
+  "completed_call_count": 36,
+  "expected_call_count": 36,
+  "mean_call_latency_ms": 10939.16,
+  "token_usage_totals": {
+    "completion_tokens": 37233,
+    "prompt_tokens": 30500,
+    "total_tokens": 67733,
+    "completion_time": 41.695136207000004,
+    "prompt_time": 1.87572533,
+    "queue_time": 5.420314198000001,
+    "total_time": 43.570861537
+  },
+  "graph": {
+    "mean_entity_count": 4.75,
+    "mean_relation_count": 1.75,
+    "questions_with_no_supported_graph_edge": 3
+  },
+  "text_only": {
+    "question_count": 12,
+    "claim_count": 28,
+    "verification_status_counts": {
+      "insufficient_evidence": 7,
+      "supported": 21
+    },
+    "abstention_count": 3,
+    "abstention_rate": 0.25,
+    "mean_supported_claim_ratio": 0.791667
+  },
+  "graph_assisted": {
+    "question_count": 12,
+    "claim_count": 28,
+    "verification_status_counts": {
+      "insufficient_evidence": 10,
+      "supported": 18
+    },
+    "abstention_count": 4,
+    "abstention_rate": 0.333333,
+    "mean_supported_claim_ratio": 0.729167
+  },
+  "interpretation": "Feasibility and structural pilot only. Verification labels are model-generated and are not treated as gold accuracy labels. Independent manual audit is required."
+}

@@ -1,0 +1,23 @@
+{
+  "generated_at_utc": "2026-07-25T19:57:08.702419+00:00",
+  "sample_question_count": 24,
+  "question_type_counts": {
+    "factoid": 6,
+    "list": 6,
+    "summary": 6,
+    "yesno": 6
+  },
+  "uncertainty_counts": {
+    "high": 8,
+    "low": 8,
+    "medium": 8
+  },
+  "graph_role_counts": {
+    "graph_suitable_candidate": 12,
+    "non_graph_control_candidate": 12
+  },
+  "prior_graph_pilot_question_count_excluded": 12,
+  "prior_graph_pilot_overlap_after_selection": 0,
+  "sample_sha256": "6dbf172e404b93d243fe65fac06f660da94b65d219234407affbac148393d660",
+  "scientific_note": "Graph-suitable and control roles are deterministic pre-experiment sampling strata based on question wording, not observed GraphRAG performance."
+}

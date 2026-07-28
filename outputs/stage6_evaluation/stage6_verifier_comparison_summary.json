@@ -1,0 +1,256 @@
+{
+  "generated_at_utc": "2026-07-25T19:33:03.086556+00:00",
+  "development_only": true,
+  "sealed_test_accessed": false,
+  "combined_claim_count": 76,
+  "claim_distribution": {
+    "contradicted": 25,
+    "insufficient_evidence": 27,
+    "supported": 24
+  },
+  "configurations": {
+    "original_prompt_same_model": {
+      "model": "openai/gpt-oss-20b",
+      "prompt_kind": "original",
+      "metrics": {
+        "claim_count": 76,
+        "accuracy": 0.8947368421052632,
+        "cohen_kappa": 0.8426908150064684,
+        "macro_f1_observed_classes": 0.8952174809317667,
+        "weighted_f1_observed_classes": 0.8938848745239723,
+        "false_support_count": 7,
+        "false_support_rate_among_supported_predictions": 0.22580645161290322,
+        "per_class": {
+          "supported": {
+            "support": 24,
+            "tp": 24,
+            "fp": 7,
+            "fn": 0,
+            "precision": 0.7741935483870968,
+            "recall": 1.0,
+            "f1": 0.8727272727272727
+          },
+          "contradicted": {
+            "support": 25,
+            "tp": 24,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.96,
+            "f1": 0.9795918367346939
+          },
+          "insufficient_evidence": {
+            "support": 27,
+            "tp": 20,
+            "fp": 1,
+            "fn": 7,
+            "precision": 0.9523809523809523,
+            "recall": 0.7407407407407407,
+            "f1": 0.8333333333333334
+          }
+        },
+        "confusion_matrix_actual_rows_predicted_columns": {
+          "supported": {
+            "supported": 24,
+            "contradicted": 0,
+            "insufficient_evidence": 0
+          },
+          "contradicted": {
+            "supported": 0,
+            "contradicted": 24,
+            "insufficient_evidence": 1
+          },
+          "insufficient_evidence": {
+            "supported": 7,
+            "contradicted": 0,
+            "insufficient_evidence": 20
+          }
+        }
+      },
+      "mean_call_latency_ms": 6374.4972727272725,
+      "call_count": 22,
+      "output_completeness": {
+        "prediction_count": 76,
+        "nonempty_rationale_count": 76,
+        "hardened_nonempty_qualifier_check_count": null,
+        "repaired_group_count": 6
+      },
+      "token_usage_totals": {
+        "completion_tokens": 16717,
+        "prompt_tokens": 14893,
+        "total_tokens": 31610,
+        "completion_time": 18.978005189,
+        "prompt_time": 0.853874117,
+        "queue_time": 1.8832119699999992,
+        "total_time": 19.831879305999998
+      }
+    },
+    "hardened_prompt_same_model": {
+      "model": "openai/gpt-oss-20b",
+      "prompt_kind": "hardened",
+      "metrics": {
+        "claim_count": 76,
+        "accuracy": 0.9342105263157895,
+        "cohen_kappa": 0.9014522821576763,
+        "macro_f1_observed_classes": 0.9348765147084475,
+        "weighted_f1_observed_classes": 0.9341655690616327,
+        "false_support_count": 4,
+        "false_support_rate_among_supported_predictions": 0.14285714285714285,
+        "per_class": {
+          "supported": {
+            "support": 24,
+            "tp": 24,
+            "fp": 4,
+            "fn": 0,
+            "precision": 0.8571428571428571,
+            "recall": 1.0,
+            "f1": 0.923076923076923
+          },
+          "contradicted": {
+            "support": 25,
+            "tp": 24,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.96,
+            "f1": 0.9795918367346939
+          },
+          "insufficient_evidence": {
+            "support": 27,
+            "tp": 23,
+            "fp": 1,
+            "fn": 4,
+            "precision": 0.9583333333333334,
+            "recall": 0.8518518518518519,
+            "f1": 0.9019607843137256
+          }
+        },
+        "confusion_matrix_actual_rows_predicted_columns": {
+          "supported": {
+            "supported": 24,
+            "contradicted": 0,
+            "insufficient_evidence": 0
+          },
+          "contradicted": {
+            "supported": 0,
+            "contradicted": 24,
+            "insufficient_evidence": 1
+          },
+          "insufficient_evidence": {
+            "supported": 4,
+            "contradicted": 0,
+            "insufficient_evidence": 23
+          }
+        }
+      },
+      "mean_call_latency_ms": 10524.475,
+      "call_count": 22,
+      "output_completeness": {
+        "prediction_count": 76,
+        "nonempty_rationale_count": 76,
+        "hardened_nonempty_qualifier_check_count": 76,
+        "repaired_group_count": 9
+      },
+      "token_usage_totals": {
+        "completion_tokens": 19103,
+        "prompt_tokens": 20477,
+        "total_tokens": 39580,
+        "completion_time": 21.575252852000002,
+        "prompt_time": 1.462433465,
+        "queue_time": 2.306955406,
+        "total_time": 23.037686317
+      }
+    },
+    "hardened_prompt_alternate_model": {
+      "model": "llama-3.3-70b-versatile",
+      "prompt_kind": "hardened",
+      "metrics": {
+        "claim_count": 76,
+        "accuracy": 0.8552631578947368,
+        "cohen_kappa": 0.7839234944430086,
+        "macro_f1_observed_classes": 0.8554653477665796,
+        "weighted_f1_observed_classes": 0.8532856672756921,
+        "false_support_count": 9,
+        "false_support_rate_among_supported_predictions": 0.2727272727272727,
+        "per_class": {
+          "supported": {
+            "support": 24,
+            "tp": 24,
+            "fp": 9,
+            "fn": 0,
+            "precision": 0.7272727272727273,
+            "recall": 1.0,
+            "f1": 0.8421052631578948
+          },
+          "contradicted": {
+            "support": 25,
+            "tp": 23,
+            "fp": 0,
+            "fn": 2,
+            "precision": 1.0,
+            "recall": 0.92,
+            "f1": 0.9583333333333334
+          },
+          "insufficient_evidence": {
+            "support": 27,
+            "tp": 18,
+            "fp": 2,
+            "fn": 9,
+            "precision": 0.9,
+            "recall": 0.6666666666666666,
+            "f1": 0.7659574468085106
+          }
+        },
+        "confusion_matrix_actual_rows_predicted_columns": {
+          "supported": {
+            "supported": 24,
+            "contradicted": 0,
+            "insufficient_evidence": 0
+          },
+          "contradicted": {
+            "supported": 0,
+            "contradicted": 23,
+            "insufficient_evidence": 2
+          },
+          "insufficient_evidence": {
+            "supported": 9,
+            "contradicted": 0,
+            "insufficient_evidence": 18
+          }
+        }
+      },
+      "mean_call_latency_ms": 2053.4386363636363,
+      "call_count": 22,
+      "output_completeness": {
+        "prediction_count": 76,
+        "nonempty_rationale_count": 76,
+        "hardened_nonempty_qualifier_check_count": 76,
+        "repaired_group_count": 0
+      },
+      "token_usage_totals": {
+        "completion_tokens": 7322,
+        "prompt_tokens": 19632,
+        "total_tokens": 26954,
+        "completion_time": 13.816728455999998,
+        "prompt_time": 2.013993907,
+        "queue_time": 3.16625678,
+        "total_time": 15.830722363
+      }
+    }
+  },
+  "selection_rule": [
+    "highest insufficient_evidence recall",
+    "lowest false-support rate",
+    "highest contradicted recall",
+    "highest macro F1 across observed classes",
+    "lowest mean latency"
+  ],
+  "ranking_best_to_worst": [
+    "hardened_prompt_same_model",
+    "original_prompt_same_model",
+    "hardened_prompt_alternate_model"
+  ],
+  "selected_configuration": "hardened_prompt_same_model",
+  "selected_model": "openai/gpt-oss-20b",
+  "scientific_note": "Verifier selection is development-only. Freeze the selected prompt, model and thresholds before the one-time sealed test evaluation."
+}

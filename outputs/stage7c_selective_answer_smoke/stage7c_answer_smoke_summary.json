@@ -1,0 +1,36 @@
+{
+  "generated_at_utc": "2026-07-26T03:12:02.393402+00:00",
+  "development_only": true,
+  "sealed_test_accessed": false,
+  "question_count": 6,
+  "answer_count": 8,
+  "paired_graph_question_count": 2,
+  "by_route": {
+    "hybrid_baseline": {
+      "answer_count": 6,
+      "claim_count": 23,
+      "verifier_label_counts": {
+        "insufficient_evidence": 5,
+        "supported": 18
+      },
+      "generator_abstention_count": 0,
+      "final_release_count": 4,
+      "final_abstention_count": 2,
+      "mean_claim_count": 3.8333333333333335
+    },
+    "selective_graph": {
+      "answer_count": 2,
+      "claim_count": 9,
+      "verifier_label_counts": {
+        "supported": 9
+      },
+      "generator_abstention_count": 0,
+      "final_release_count": 2,
+      "final_abstention_count": 0,
+      "mean_claim_count": 4.5
+    }
+  },
+  "final_disposition_policy": "Release only when every atomic claim is verifier-supported; otherwise abstain.",
+  "unsupported_claims_released": 0,
+  "scientific_note": "Stage 7C is a technical smoke. The frozen verifier uses the same model family as the generator and is not human gold."
+}

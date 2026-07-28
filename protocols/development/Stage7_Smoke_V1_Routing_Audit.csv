@@ -1,0 +1,7 @@
+finding,observed,interpretation
+Graph-role evidence changes,1/4,Below the predeclared technical gate.
+Control evidence changes,4/4,Graph reranking changed controls more often than graph-role cases.
+Graph-insufficient questions,"S7Q-009, S7Q-023",The graph builder itself declared these graphs insufficient.
+Graph route despite insufficiency,"S7Q-009, S7Q-023",Routing logic did not enforce graph sufficiency.
+Released abstentions,0,No verifier-driven selective abstention was applied after generation.
+Non-supported verified claims,10,"Verifier found contradicted or insufficient claims, yet answers were not withheld."

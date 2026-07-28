@@ -1,0 +1,9 @@
+stage7_id,question_type,structural_role,model_graph_sufficient,v2_graph_route_eligible,evidence_set_changed,relevant_relation_count,relevant_answer_aspect_count,graph_exclusive_relevant_item_count,useful_novel_selected_count,zero_coverage_novel_selected_count,interpretation
+S7Q-005,factoid,graph_stress,True,True,True,2,1,0,0,4,"V2 marked this route eligible, but hybrid top five already covered every relevant graph item. Four novel snippets were zero-coverage filler."
+S7Q-002,factoid,direct_control,True,False,True,1,1,0,1,4,"Direct numeric control; graph extraction found evidence outside hybrid top five, but policy correctly prevented graph routing."
+S7Q-009,list,graph_stress,False,False,True,6,3,5,2,1,Strong graph-exclusive coverage: five relevant graph items and two useful novel snippets. V2 blocked it only because the model self-reported graph_sufficient=false.
+S7Q-008,list,direct_control,True,False,True,6,6,0,1,4,"Direct taxonomy control; graph changed evidence, but policy correctly prevented graph routing."
+S7Q-017,summary,graph_stress,False,False,True,0,0,0,0,5,Candidate graph contained entities but no evidence-backed relations or answer aspects; graph route is not justified.
+S7Q-018,summary,direct_control,False,False,True,6,0,1,1,1,Policy-summary control; one exclusive relation was found but the task is outside the biomedical graph-routing scope.
+S7Q-021,yesno,graph_stress,False,False,True,4,0,1,1,2,"One graph-exclusive relation was found, but the yes/no question is answered directly by hybrid top evidence; graph routing is unnecessary."
+S7Q-020,yesno,direct_control,False,False,True,0,0,0,0,5,Direct feasibility control; no evidence-backed graph items were produced.

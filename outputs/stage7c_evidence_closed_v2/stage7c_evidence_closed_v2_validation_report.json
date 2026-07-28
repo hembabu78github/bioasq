@@ -1,0 +1,27 @@
+{
+  "generated_at_utc": "2026-07-26T03:24:46.342490+00:00",
+  "status": "pass",
+  "checks": {
+    "six_questions_and_eight_arms": true,
+    "six_hybrid_results_reused": true,
+    "two_graph_selected_text_answers_regenerated": true,
+    "all_expected_arms_completed": true,
+    "graph_route_is_eligible_list_only": true,
+    "graph_is_used_only_for_evidence_selection": true,
+    "all_verifier_citations_are_displayed_E1_to_E5": true,
+    "all_answers_and_verifications_complete": true,
+    "final_disposition_matches_frozen_rule": true,
+    "no_non_supported_claim_is_released": true,
+    "paired_comparison_has_two_questions": true,
+    "sealed_test_not_accessed": true
+  },
+  "counts": {
+    "questions": 6,
+    "answers": 8,
+    "new_generation_calls_expected": 2,
+    "new_verifier_calls_expected": 2,
+    "final_releases": 5,
+    "final_abstentions": 3
+  },
+  "next_gate": "Only after evidence-closed results are reviewed should blinded human annotation begin."
+}

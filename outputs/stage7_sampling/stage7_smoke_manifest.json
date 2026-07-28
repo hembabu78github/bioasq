@@ -1,0 +1,28 @@
+{
+  "generated_at_utc": "2026-07-25T19:57:08.702419+00:00",
+  "question_count": 8,
+  "question_type_counts": {
+    "factoid": 2,
+    "list": 2,
+    "summary": 2,
+    "yesno": 2
+  },
+  "uncertainty_counts": {
+    "high": 3,
+    "low": 3,
+    "medium": 2
+  },
+  "graph_role_counts": {
+    "graph_suitable_candidate": 4,
+    "non_graph_control_candidate": 4
+  },
+  "four_conditions": [
+    "bge_text_only",
+    "hybrid_text_only",
+    "graph_reranked",
+    "risk_adaptive_agentic"
+  ],
+  "expected_answer_count": 32,
+  "smoke_sample_sha256": "fdcfb4ced347f3cc50f01d8cfc14bc4161dde0f6c92e49f1598306b6c7de759b",
+  "do_not_run_until_sample_reviewed": true
+}

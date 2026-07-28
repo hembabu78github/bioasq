@@ -1,0 +1,16 @@
+{
+  "development_only": true,
+  "sealed_test_accessed": false,
+  "selected_final_text_route": "bge_text_only",
+  "decision_basis": "The 95% paired-bootstrap CI includes zero; BGE is selected by the frozen parsimony tie rule.",
+  "hybrid_minus_bge_observed_mean": 0.013971846451117986,
+  "hybrid_minus_bge_bootstrap_95_ci": [
+    -0.11682818459912857,
+    0.14319341780740577
+  ],
+  "bootstrap_hybrid_win_probability": 0.5862,
+  "bootstrap_samples": 10000,
+  "bootstrap_seed": 20260726,
+  "graph_route_status": "excluded_from_main_architecture",
+  "next_gate": "Review and accept the gold-scoring outputs, freeze the selected text-only route, and only then prepare the one-time sealed-test evaluation."
+}

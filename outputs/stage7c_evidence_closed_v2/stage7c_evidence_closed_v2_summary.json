@@ -1,0 +1,36 @@
+{
+  "generated_at_utc": "2026-07-26T03:24:45.141893+00:00",
+  "development_only": true,
+  "sealed_test_accessed": false,
+  "question_count": 6,
+  "answer_count": 8,
+  "reused_hybrid_answer_count": 6,
+  "new_graph_selected_answer_count": 2,
+  "by_route": {
+    "hybrid_baseline": {
+      "answer_count": 6,
+      "claim_count": 23,
+      "verifier_label_counts": {
+        "insufficient_evidence": 5,
+        "supported": 18
+      },
+      "final_release_count": 4,
+      "final_abstention_count": 2,
+      "mean_claim_count": 3.8333333333333335
+    },
+    "graph_selected_text_only": {
+      "answer_count": 2,
+      "claim_count": 5,
+      "verifier_label_counts": {
+        "insufficient_evidence": 1,
+        "supported": 4
+      },
+      "final_release_count": 1,
+      "final_abstention_count": 1,
+      "mean_claim_count": 2.5
+    }
+  },
+  "graph_payload_supplied_count": 0,
+  "unsupported_claims_released": 0,
+  "scientific_note": "Evidence-closed protocol correction: graph assertions are never presented as evidence."
+}

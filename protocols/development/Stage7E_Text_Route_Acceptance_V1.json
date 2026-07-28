@@ -1,0 +1,41 @@
+{
+  "accepted_at_utc": "2026-07-26T15:43:42.270579+00:00",
+  "stage": "Stage 7E BioASQ development gold scoring",
+  "validation_status": "pass",
+  "development_question_count": 24,
+  "logical_arm_count": 48,
+  "selected_final_text_route": "bge_text_only",
+  "route_selection_rule": "Hybrid required a paired-bootstrap 95% confidence interval entirely above zero. The interval included zero, so BGE was selected using the predeclared parsimony rule.",
+  "bge_deployed_primary_composite": 0.5412202644603326,
+  "hybrid_deployed_primary_composite": 0.5551921109114506,
+  "hybrid_minus_bge_observed_mean": 0.013971846451117986,
+  "hybrid_minus_bge_bootstrap_95_ci": [
+    -0.11682818459912857,
+    0.14319341780740577
+  ],
+  "bootstrap_hybrid_win_probability": 0.5862,
+  "graph_route_status": "excluded_from_main_architecture",
+  "generator_model": "openai/gpt-oss-20b",
+  "generator_prompt_version": "stage7d_evidence_closed_v1",
+  "verifier": "frozen hardened same-model verifier",
+  "release_rule": "Release only when the generator did not abstain and every atomic claim was verifier-supported.",
+  "sealed_test_accessed": false,
+  "accepted_file_hashes": {
+    "stage7e_gold_per_question_jsonl_sha256": "d407f30b346f2ddbd4a563eaeb9b7e47c0fd9381b9dbdc5e2a82c3cd8842aa89",
+    "stage7e_gold_summary_sha256": "50c4ed370ebb90bf4e1b94888e60f14e282bd15fedccc08fa5f08c92e9d27e7e",
+    "stage7e_gold_validation_report_sha256": "9f365d0e104811b29a26de531b2950948a91c0393f610477d9eebb54bf2b5144",
+    "stage7e_text_route_decision_sha256": "6a6d420c3c250c5861bbdfb8b9634b59a36114ac3cf8cde3f98d95a104ff7fe8"
+  },
+  "accepted_test_split": {
+    "relative_path": "data\\processed\\stage3\\test_ids_v2.txt",
+    "sha256": "925e8029179c57a6f7c3bb6a1c120d90dd3c497a968c1b2a66fe65df5b17c0f3",
+    "expected_counts": {
+      "total": 706,
+      "factoid": 212,
+      "list": 135,
+      "summary": 169,
+      "yesno": 190
+    }
+  },
+  "post_freeze_rule": "No route, prompt, model, evidence count, verifier rule, threshold or metric may be changed after sealed-test preparation begins."
+}

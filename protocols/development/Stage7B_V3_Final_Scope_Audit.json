@@ -1,0 +1,100 @@
+{
+  "summary": {
+    "generated_at_utc": "2026-07-26",
+    "v3_validation_status": "pass",
+    "eligible_question_ids": [
+      "S7Q-009",
+      "S7Q-011"
+    ],
+    "eligible_question_types": [
+      "list"
+    ],
+    "important_scope_correction": "The validator's generic list/summary wording is broader than the observed evidence. Both eligible cases are list questions; none of the three summary questions qualified. The frozen GraphRAG scope is therefore multi-entity list questions only, subject to deterministic eligibility.",
+    "eligible_cases": {
+      "S7Q-009": "Five graph-exclusive relevant items, two useful novel snippets and three answer aspects. Eligibility overrides an inconsistent model graph_sufficient=false flag.",
+      "S7Q-011": "Two graph-exclusive relevant items, two useful novel snippets and three answer aspects. Model and deterministic criteria agree."
+    },
+    "noneligible_pattern": "S7Q-007 and all three summary questions had no counterfactual graph-exclusive value under the top-five evidence comparison.",
+    "next_gate": "Run a small verifier-driven paired answer smoke: six hybrid baselines and graph-route answers only for S7Q-009 and S7Q-011. Human review remains required before claiming answer-quality benefit."
+  },
+  "records": [
+    {
+      "stage7_id": "S7Q-007",
+      "question_type": "list",
+      "model_graph_sufficient": true,
+      "relevant_relation_count": 1,
+      "relevant_answer_aspect_count": 1,
+      "graph_exclusive_relevant_item_count": 0,
+      "useful_novel_selected_count": 0,
+      "evidence_set_changed": false,
+      "graph_route_eligible": false,
+      "eligibility_source": "not_eligible",
+      "scope_decision": "fallback to hybrid retrieval"
+    },
+    {
+      "stage7_id": "S7Q-009",
+      "question_type": "list",
+      "model_graph_sufficient": false,
+      "relevant_relation_count": 6,
+      "relevant_answer_aspect_count": 3,
+      "graph_exclusive_relevant_item_count": 5,
+      "useful_novel_selected_count": 2,
+      "evidence_set_changed": true,
+      "graph_route_eligible": true,
+      "eligibility_source": "deterministic_override_of_model_flag",
+      "scope_decision": "retain selective multi-entity list route"
+    },
+    {
+      "stage7_id": "S7Q-011",
+      "question_type": "list",
+      "model_graph_sufficient": true,
+      "relevant_relation_count": 3,
+      "relevant_answer_aspect_count": 3,
+      "graph_exclusive_relevant_item_count": 2,
+      "useful_novel_selected_count": 2,
+      "evidence_set_changed": true,
+      "graph_route_eligible": true,
+      "eligibility_source": "model_and_deterministic",
+      "scope_decision": "retain selective multi-entity list route"
+    },
+    {
+      "stage7_id": "S7Q-013",
+      "question_type": "summary",
+      "model_graph_sufficient": true,
+      "relevant_relation_count": 5,
+      "relevant_answer_aspect_count": 4,
+      "graph_exclusive_relevant_item_count": 0,
+      "useful_novel_selected_count": 0,
+      "evidence_set_changed": false,
+      "graph_route_eligible": false,
+      "eligibility_source": "not_eligible",
+      "scope_decision": "fallback to hybrid retrieval"
+    },
+    {
+      "stage7_id": "S7Q-015",
+      "question_type": "summary",
+      "model_graph_sufficient": true,
+      "relevant_relation_count": 8,
+      "relevant_answer_aspect_count": 5,
+      "graph_exclusive_relevant_item_count": 0,
+      "useful_novel_selected_count": 0,
+      "evidence_set_changed": false,
+      "graph_route_eligible": false,
+      "eligibility_source": "not_eligible",
+      "scope_decision": "fallback to hybrid retrieval"
+    },
+    {
+      "stage7_id": "S7Q-017",
+      "question_type": "summary",
+      "model_graph_sufficient": false,
+      "relevant_relation_count": 0,
+      "relevant_answer_aspect_count": 0,
+      "graph_exclusive_relevant_item_count": 0,
+      "useful_novel_selected_count": 0,
+      "evidence_set_changed": false,
+      "graph_route_eligible": false,
+      "eligibility_source": "not_eligible",
+      "scope_decision": "fallback to hybrid retrieval"
+    }
+  ]
+}

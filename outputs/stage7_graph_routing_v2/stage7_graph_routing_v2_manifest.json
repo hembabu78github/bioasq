@@ -1,0 +1,26 @@
+{
+  "generated_at_utc": "2026-07-26T01:47:10.694429+00:00",
+  "question_count": 8,
+  "question_type_counts": {
+    "factoid": 2,
+    "list": 2,
+    "summary": 2,
+    "yesno": 2
+  },
+  "uncertainty_counts": {
+    "low": 3,
+    "medium": 2,
+    "high": 3
+  },
+  "structural_role_counts": {
+    "graph_stress": 4,
+    "direct_control": 4
+  },
+  "candidate_pool_size": 20,
+  "selected_evidence_count": 5,
+  "answer_generation_calls": 0,
+  "verification_calls": 0,
+  "expected_graph_calls": 8,
+  "sample_sha256": "afd5f0a52e05ec904964f5238e7dee01591ce739ab2a47d28c40241f08f9ba67",
+  "scientific_note": "This protocol amendment follows a failed technical smoke gate. Its outputs will not be reported as final performance estimates."
+}

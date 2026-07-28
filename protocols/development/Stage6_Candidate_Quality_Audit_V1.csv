@@ -1,0 +1,9 @@
+candidate_id,severity,finding,correction
+ADV-001,major,"The original 'Infliximab is most widely used' claim was absent, not directly contradicted.",Replaced with direct negation of the evidence that three anti-TNF therapies are widely used.
+ADV-003,major,Heart failure was an unsupported entity substitution rather than a clean contradiction.,Replaced with direct negation of acute migraine use.
+ADV-012,moderate,The TBC1D24 subgroup qualifier could be partly supported by the displayed cohort evidence.,Replaced with an unsupported sex-specific qualifier.
+ADV-017,moderate,'Not a common symptom' was ambiguous because some DOORS cases lacked seizures.,Replaced with the clean contradiction 'not a feature'.
+ADV-019/ADV-020,major,The source question was unanswerable; absence of CK1-epsilon evidence cannot produce a direct contradiction.,Replaced with one contradicted and one insufficient Bimagrumab claim grounded in displayed evidence.
+ADV-028,major,The qualifier 'in humans' was supported by the human-lncRNA evidence.,Replaced with an unsupported embryonic-development qualifier.
+ADV-045/ADV-047,major,The two claims were exact duplicates and receptor/peptide wording conflicted across evidence snippets.,"Replaced with two distinct, direct negations supported by consistent evidence."
+ADV-008/ADV-040,metadata,Evidence provenance lists were empty.,Added evidence IDs reviewed for each insufficiency decision.

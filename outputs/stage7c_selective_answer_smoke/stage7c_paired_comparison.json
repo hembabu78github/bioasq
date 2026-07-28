@@ -1,0 +1,44 @@
+{
+  "generated_at_utc": "2026-07-26T03:12:02.393402+00:00",
+  "paired_question_count": 2,
+  "pairs": [
+    {
+      "stage7_id": "S7Q-009",
+      "question": "Which gene mutations are responsible for isolated Non-compaction cardiomyopathy?",
+      "hybrid_answer": "['alpha-tropomyosin mutation', 'troponin T (TNNT2) mutation']",
+      "graph_answer": "['TPM1', 'TNNT2', 'MYH7', 'DSP', 'ACTC1', 'SGCD']",
+      "answer_text_changed": true,
+      "hybrid_claim_count": 2,
+      "graph_claim_count": 6,
+      "hybrid_verifier_label_counts": {
+        "insufficient_evidence": 2
+      },
+      "graph_verifier_label_counts": {
+        "supported": 6
+      },
+      "hybrid_final_disposition": "abstain",
+      "graph_final_disposition": "release",
+      "graph_evidence_changed": true
+    },
+    {
+      "stage7_id": "S7Q-011",
+      "question": "Which cancer types are associated with mutations in the TWIST1 gene?",
+      "hybrid_answer": "['breast', 'liver', 'prostate', 'gastric', 'ovarian']",
+      "graph_answer": "Breast cancer, Ovarian cancer, Prostate cancer",
+      "answer_text_changed": true,
+      "hybrid_claim_count": 5,
+      "graph_claim_count": 3,
+      "hybrid_verifier_label_counts": {
+        "insufficient_evidence": 3,
+        "supported": 2
+      },
+      "graph_verifier_label_counts": {
+        "supported": 3
+      },
+      "hybrid_final_disposition": "abstain",
+      "graph_final_disposition": "release",
+      "graph_evidence_changed": true
+    }
+  ],
+  "scientific_note": "These automated same-model verifier comparisons are descriptive only. Blinded human review is required."
+}

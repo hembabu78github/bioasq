@@ -1,0 +1,75 @@
+{
+  "generated_at_utc": "2026-07-27T16:02:13.522186+00:00",
+  "one_time_sealed_test_evaluation": true,
+  "sealed_test_accessed": true,
+  "test_gold_answers_accessed": true,
+  "test_gold_relevance_accessed": true,
+  "selected_route": "bge_text_only",
+  "question_count": 706,
+  "question_type_counts": {
+    "factoid": 212,
+    "list": 135,
+    "summary": 169,
+    "yesno": 190
+  },
+  "answer_call_record_count": 706,
+  "verifier_call_record_count": 659,
+  "claim_count": 1830,
+  "verifier_label_counts": {
+    "contradicted": 4,
+    "insufficient_evidence": 63,
+    "supported": 1763
+  },
+  "release_count": 602,
+  "abstention_count": 104,
+  "unsupported_claims_released": 0,
+  "by_question_type": {
+    "factoid": {
+      "question_count": 212,
+      "release_count": 185,
+      "coverage": 0.8726415094339622,
+      "deployed_primary_mean": 0.49292452830188677,
+      "deployed_strict_mean": 0.455188679245283,
+      "raw_primary_mean": 0.5212264150943396,
+      "raw_strict_mean": 0.47877358490566035
+    },
+    "list": {
+      "question_count": 135,
+      "release_count": 110,
+      "coverage": 0.8148148148148148,
+      "deployed_primary_mean": 0.42869650708831997,
+      "deployed_strict_mean": 0.4039394679521958,
+      "raw_primary_mean": 0.455080986806133,
+      "raw_strict_mean": 0.4290893797687743
+    },
+    "summary": {
+      "question_count": 169,
+      "release_count": 150,
+      "coverage": 0.8875739644970414,
+      "deployed_primary_mean": 0.28694377470991494,
+      "deployed_strict_mean": 0.28694377470991494,
+      "raw_primary_mean": 0.31906300575102736,
+      "raw_strict_mean": 0.31906300575102736
+    },
+    "yesno": {
+      "question_count": 190,
+      "release_count": 157,
+      "coverage": 0.8263157894736842,
+      "deployed_primary_mean": 0.7947368421052632,
+      "deployed_strict_mean": 0.7947368421052632,
+      "raw_primary_mean": 0.8368421052631579,
+      "raw_strict_mean": 0.8368421052631579
+    }
+  },
+  "deployed_primary_macro_composite": 0.5008254130513462,
+  "deployed_strict_macro_composite": 0.48520219100316425,
+  "raw_primary_macro_composite": 0.5330531282286645,
+  "deployed_primary_macro_bootstrap_95_ci": [
+    0.4724000430986517,
+    0.5296840962856036
+  ],
+  "bootstrap_samples": 10000,
+  "bootstrap_seed": 20260726,
+  "retrieval_summary_path": "D:\\Prog\\JMS_RAG\\outputs\\stage7f_test_eval\\stage7f_test_retrieval_summary.json",
+  "scientific_note": "These are the single frozen held-out test results. No tuning, route changes or prompt changes are permitted after this run."
+}

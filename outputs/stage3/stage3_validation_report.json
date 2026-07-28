@@ -1,0 +1,28 @@
+{
+  "generated_at_utc": "2026-07-25T06:19:34.784871+00:00",
+  "status": "pass",
+  "checks": {
+    "pilot_pinned_only_to_development": true,
+    "repaired_split_has_no_id_overlap": true,
+    "repaired_split_has_no_duplicate_body_leakage": true,
+    "both_dense_models_completed": true,
+    "each_dense_model_has_80_pilot_records": true,
+    "all_required_retrieval_methods_present": true,
+    "route_analysis_is_explicitly_exploratory": true,
+    "no_test_metrics_in_dense_summary": true
+  },
+  "counts": {
+    "dense_rows": 160,
+    "dense_rows_by_model": {
+      "bge_small": 80,
+      "pubmedbert": 80
+    },
+    "hybrid_method_count": 5,
+    "repaired_split_counts": {
+      "train": 3304,
+      "dev": 709,
+      "test": 706
+    }
+  },
+  "scientific_note": "Passing Stage 3 validates the repaired development/test boundary and the development-only lexical, dense and hybrid retrieval comparison. It does not validate graph reasoning, agentic routing, claim verification, abstention or final test performance."
+}

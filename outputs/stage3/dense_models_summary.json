@@ -1,0 +1,223 @@
+{
+  "generated_at_utc": "2026-07-25T06:19:23.241536+00:00",
+  "stage": "development pilot retrieval only",
+  "pilot_question_count": 80,
+  "candidate_snippet_count": 52699,
+  "top_k_saved": 100,
+  "evaluation_cutoff": 20,
+  "environment": {
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "logical_cpu_count": 8,
+    "total_ram_gib": 15.71
+  },
+  "models": {
+    "bge_small": {
+      "manifest": {
+        "model_key": "bge_small",
+        "model_id": "BAAI/bge-small-en-v1.5",
+        "model_revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+        "license_note": "Refer to the model card and repository licence at release time.",
+        "max_seq_length": 256,
+        "batch_size": 64,
+        "query_prefix": "Represent this sentence for searching relevant passages: ",
+        "embedding_dimension": 384,
+        "corpus_embedding_file": "models\\stage3_embeddings\\bge_small_corpus_embeddings.npy",
+        "corpus_embedding_sha256": "db83dd29affe26b0cb4d884ffa5fe1e4b51965ed10191c09b5017e480e4b901f",
+        "corpus_embedding_size_bytes": 80945792,
+        "corpus_count": 52699,
+        "model_load_ms": 12324.52,
+        "corpus_encode_ms": 1180665.21,
+        "peak_system_memory_percent_after_run": 75.8
+      },
+      "overall": {
+        "question_count": 80,
+        "hit_rate_at_1": 0.825,
+        "hit_rate_at_5": 0.975,
+        "hit_rate_at_10": 0.9875,
+        "hit_rate_at_20": 1,
+        "mrr_at_20": 0.892639,
+        "mean_query_encode_ms": 24.508875,
+        "mean_search_ms": 4.971125
+      },
+      "by_question_type": {
+        "factoid": {
+          "question_count": 20,
+          "hit_rate_at_1": 0.85,
+          "hit_rate_at_5": 0.95,
+          "hit_rate_at_10": 0.95,
+          "hit_rate_at_20": 1,
+          "mrr_at_20": 0.894167,
+          "mean_query_encode_ms": 25.168,
+          "mean_search_ms": 5.124
+        },
+        "list": {
+          "question_count": 20,
+          "hit_rate_at_1": 0.75,
+          "hit_rate_at_5": 1,
+          "hit_rate_at_10": 1,
+          "hit_rate_at_20": 1,
+          "mrr_at_20": 0.866667,
+          "mean_query_encode_ms": 25.5595,
+          "mean_search_ms": 4.8855
+        },
+        "summary": {
+          "question_count": 20,
+          "hit_rate_at_1": 0.8,
+          "hit_rate_at_5": 0.95,
+          "hit_rate_at_10": 1,
+          "hit_rate_at_20": 1,
+          "mrr_at_20": 0.868056,
+          "mean_query_encode_ms": 24.0335,
+          "mean_search_ms": 5.0125
+        },
+        "yesno": {
+          "question_count": 20,
+          "hit_rate_at_1": 0.9,
+          "hit_rate_at_5": 1,
+          "hit_rate_at_10": 1,
+          "hit_rate_at_20": 1,
+          "mrr_at_20": 0.941667,
+          "mean_query_encode_ms": 23.2745,
+          "mean_search_ms": 4.8625
+        }
+      },
+      "by_evidence_risk_prior": {
+        "high": {
+          "question_count": 2,
+          "hit_rate_at_1": 0.5,
+          "hit_rate_at_5": 1,
+          "hit_rate_at_10": 1,
+          "hit_rate_at_20": 1,
+          "mrr_at_20": 0.75,
+          "mean_query_encode_ms": 22.665,
+          "mean_search_ms": 5.165
+        },
+        "low": {
+          "question_count": 51,
+          "hit_rate_at_1": 0.862745,
+          "hit_rate_at_5": 0.980392,
+          "hit_rate_at_10": 0.980392,
+          "hit_rate_at_20": 1,
+          "mrr_at_20": 0.916013,
+          "mean_query_encode_ms": 24.208039,
+          "mean_search_ms": 4.975098
+        },
+        "medium": {
+          "question_count": 27,
+          "hit_rate_at_1": 0.777778,
+          "hit_rate_at_5": 0.962963,
+          "hit_rate_at_10": 1,
+          "hit_rate_at_20": 1,
+          "mrr_at_20": 0.859053,
+          "mean_query_encode_ms": 25.213704,
+          "mean_search_ms": 4.949259
+        }
+      }
+    },
+    "pubmedbert": {
+      "manifest": {
+        "model_key": "pubmedbert",
+        "model_id": "NeuML/pubmedbert-base-embeddings",
+        "model_revision": "b79526d6ef3645e0df4530322e266f24c829f5ef",
+        "license_note": "Refer to the model card and repository licence at release time.",
+        "max_seq_length": 256,
+        "batch_size": 16,
+        "query_prefix": "",
+        "embedding_dimension": 768,
+        "corpus_embedding_file": "models\\stage3_embeddings\\pubmedbert_corpus_embeddings.npy",
+        "corpus_embedding_sha256": "d928e5299b6ac6b3570aeaf3f7a85c8530754eead8a149c821f3bce85de890ff",
+        "corpus_embedding_size_bytes": 161891456,
+        "corpus_count": 52699,
+        "model_load_ms": 32771.06,
+        "corpus_encode_ms": 3884575.2,
+        "peak_system_memory_percent_after_run": 78.6
+      },
+      "overall": {
+        "question_count": 80,
+        "hit_rate_at_1": 0.675,
+        "hit_rate_at_5": 0.7875,
+        "hit_rate_at_10": 0.8375,
+        "hit_rate_at_20": 0.8625,
+        "mrr_at_20": 0.727176,
+        "mean_query_encode_ms": 91.242875,
+        "mean_search_ms": 9.63625
+      },
+      "by_question_type": {
+        "factoid": {
+          "question_count": 20,
+          "hit_rate_at_1": 0.5,
+          "hit_rate_at_5": 0.75,
+          "hit_rate_at_10": 0.8,
+          "hit_rate_at_20": 0.8,
+          "mrr_at_20": 0.6125,
+          "mean_query_encode_ms": 97.5145,
+          "mean_search_ms": 9.7885
+        },
+        "list": {
+          "question_count": 20,
+          "hit_rate_at_1": 0.7,
+          "hit_rate_at_5": 0.8,
+          "hit_rate_at_10": 0.9,
+          "hit_rate_at_20": 0.9,
+          "mrr_at_20": 0.750198,
+          "mean_query_encode_ms": 83.204,
+          "mean_search_ms": 9.4015
+        },
+        "summary": {
+          "question_count": 20,
+          "hit_rate_at_1": 0.6,
+          "hit_rate_at_5": 0.65,
+          "hit_rate_at_10": 0.7,
+          "hit_rate_at_20": 0.8,
+          "mrr_at_20": 0.629337,
+          "mean_query_encode_ms": 90.432,
+          "mean_search_ms": 9.801
+        },
+        "yesno": {
+          "question_count": 20,
+          "hit_rate_at_1": 0.9,
+          "hit_rate_at_5": 0.95,
+          "hit_rate_at_10": 0.95,
+          "hit_rate_at_20": 0.95,
+          "mrr_at_20": 0.916667,
+          "mean_query_encode_ms": 93.821,
+          "mean_search_ms": 9.554
+        }
+      },
+      "by_evidence_risk_prior": {
+        "high": {
+          "question_count": 2,
+          "hit_rate_at_1": 0.5,
+          "hit_rate_at_5": 0.5,
+          "hit_rate_at_10": 0.5,
+          "hit_rate_at_20": 0.5,
+          "mrr_at_20": 0.5,
+          "mean_query_encode_ms": 109.33,
+          "mean_search_ms": 9.67
+        },
+        "low": {
+          "question_count": 51,
+          "hit_rate_at_1": 0.686275,
+          "hit_rate_at_5": 0.843137,
+          "hit_rate_at_10": 0.862745,
+          "hit_rate_at_20": 0.862745,
+          "mrr_at_20": 0.751634,
+          "mean_query_encode_ms": 92.273529,
+          "mean_search_ms": 9.634706
+        },
+        "medium": {
+          "question_count": 27,
+          "hit_rate_at_1": 0.666667,
+          "hit_rate_at_5": 0.703704,
+          "hit_rate_at_10": 0.814815,
+          "hit_rate_at_20": 0.888889,
+          "mrr_at_20": 0.697804,
+          "mean_query_encode_ms": 87.956296,
+          "mean_search_ms": 9.636667
+        }
+      }
+    }
+  },
+  "scientific_note": "Results are development-only and use the repaired pilot-pinned development split. No test-set performance is calculated."
+}

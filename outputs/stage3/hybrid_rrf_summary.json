@@ -1,0 +1,402 @@
+{
+  "generated_at_utc": "2026-07-25T06:19:34.374506+00:00",
+  "fusion": {
+    "method": "Reciprocal Rank Fusion",
+    "rrf_k": 60,
+    "input_depth": 100,
+    "evaluation_cutoff": 20
+  },
+  "methods": {
+    "bge_small": {
+      "overall": {
+        "question_count": 80,
+        "hit_rate_at_1": 0.825,
+        "hit_rate_at_5": 0.975,
+        "hit_rate_at_10": 0.9875,
+        "hit_rate_at_20": 1,
+        "mrr_at_20": 0.892639,
+        "mean_latency_ms": 29.48
+      },
+      "by_question_type": {
+        "factoid": {
+          "question_count": 20,
+          "hit_rate_at_1": 0.85,
+          "hit_rate_at_5": 0.95,
+          "hit_rate_at_10": 0.95,
+          "hit_rate_at_20": 1,
+          "mrr_at_20": 0.894167,
+          "mean_latency_ms": 30.292
+        },
+        "list": {
+          "question_count": 20,
+          "hit_rate_at_1": 0.75,
+          "hit_rate_at_5": 1,
+          "hit_rate_at_10": 1,
+          "hit_rate_at_20": 1,
+          "mrr_at_20": 0.866667,
+          "mean_latency_ms": 30.445
+        },
+        "summary": {
+          "question_count": 20,
+          "hit_rate_at_1": 0.8,
+          "hit_rate_at_5": 0.95,
+          "hit_rate_at_10": 1,
+          "hit_rate_at_20": 1,
+          "mrr_at_20": 0.868056,
+          "mean_latency_ms": 29.046
+        },
+        "yesno": {
+          "question_count": 20,
+          "hit_rate_at_1": 0.9,
+          "hit_rate_at_5": 1,
+          "hit_rate_at_10": 1,
+          "hit_rate_at_20": 1,
+          "mrr_at_20": 0.941667,
+          "mean_latency_ms": 28.137
+        }
+      },
+      "by_evidence_risk_prior": {
+        "high": {
+          "question_count": 2,
+          "hit_rate_at_1": 0.5,
+          "hit_rate_at_5": 1,
+          "hit_rate_at_10": 1,
+          "hit_rate_at_20": 1,
+          "mrr_at_20": 0.75,
+          "mean_latency_ms": 27.83
+        },
+        "low": {
+          "question_count": 51,
+          "hit_rate_at_1": 0.862745,
+          "hit_rate_at_5": 0.980392,
+          "hit_rate_at_10": 0.980392,
+          "hit_rate_at_20": 1,
+          "mrr_at_20": 0.916013,
+          "mean_latency_ms": 29.183137
+        },
+        "medium": {
+          "question_count": 27,
+          "hit_rate_at_1": 0.777778,
+          "hit_rate_at_5": 0.962963,
+          "hit_rate_at_10": 1,
+          "hit_rate_at_20": 1,
+          "mrr_at_20": 0.859053,
+          "mean_latency_ms": 30.162963
+        }
+      }
+    },
+    "bm25": {
+      "overall": {
+        "question_count": 80,
+        "hit_rate_at_1": 0.7875,
+        "hit_rate_at_5": 0.9,
+        "hit_rate_at_10": 0.925,
+        "hit_rate_at_20": 0.95,
+        "mrr_at_20": 0.84129,
+        "mean_latency_ms": 101.7075
+      },
+      "by_question_type": {
+        "factoid": {
+          "question_count": 20,
+          "hit_rate_at_1": 0.8,
+          "hit_rate_at_5": 0.95,
+          "hit_rate_at_10": 0.95,
+          "hit_rate_at_20": 1,
+          "mrr_at_20": 0.862778,
+          "mean_latency_ms": 93.342
+        },
+        "list": {
+          "question_count": 20,
+          "hit_rate_at_1": 0.75,
+          "hit_rate_at_5": 0.9,
+          "hit_rate_at_10": 0.95,
+          "hit_rate_at_20": 0.95,
+          "mrr_at_20": 0.825,
+          "mean_latency_ms": 134.7655
+        },
+        "summary": {
+          "question_count": 20,
+          "hit_rate_at_1": 0.8,
+          "hit_rate_at_5": 0.85,
+          "hit_rate_at_10": 0.85,
+          "hit_rate_at_20": 0.9,
+          "mrr_at_20": 0.828571,
+          "mean_latency_ms": 89.553
+        },
+        "yesno": {
+          "question_count": 20,
+          "hit_rate_at_1": 0.8,
+          "hit_rate_at_5": 0.9,
+          "hit_rate_at_10": 0.95,
+          "hit_rate_at_20": 0.95,
+          "mrr_at_20": 0.84881,
+          "mean_latency_ms": 89.1695
+        }
+      },
+      "by_evidence_risk_prior": {
+        "high": {
+          "question_count": 2,
+          "hit_rate_at_1": 0.5,
+          "hit_rate_at_5": 0.5,
+          "hit_rate_at_10": 0.5,
+          "hit_rate_at_20": 0.5,
+          "mrr_at_20": 0.5,
+          "mean_latency_ms": 170.07
+        },
+        "low": {
+          "question_count": 51,
+          "hit_rate_at_1": 0.803922,
+          "hit_rate_at_5": 0.901961,
+          "hit_rate_at_10": 0.941176,
+          "hit_rate_at_20": 0.960784,
+          "mrr_at_20": 0.850949,
+          "mean_latency_ms": 100.199412
+        },
+        "medium": {
+          "question_count": 27,
+          "hit_rate_at_1": 0.777778,
+          "hit_rate_at_5": 0.925926,
+          "hit_rate_at_10": 0.925926,
+          "hit_rate_at_20": 0.962963,
+          "mrr_at_20": 0.848325,
+          "mean_latency_ms": 99.492222
+        }
+      }
+    },
+    "hybrid_bge_small": {
+      "overall": {
+        "question_count": 80,
+        "hit_rate_at_1": 0.8875,
+        "hit_rate_at_5": 0.975,
+        "hit_rate_at_10": 0.975,
+        "hit_rate_at_20": 1,
+        "mrr_at_20": 0.91849,
+        "mean_latency_ms": 131.47825
+      },
+      "by_question_type": {
+        "factoid": {
+          "question_count": 20,
+          "hit_rate_at_1": 0.9,
+          "hit_rate_at_5": 0.95,
+          "hit_rate_at_10": 0.95,
+          "hit_rate_at_20": 1,
+          "mrr_at_20": 0.928125,
+          "mean_latency_ms": 123.881
+        },
+        "list": {
+          "question_count": 20,
+          "hit_rate_at_1": 0.9,
+          "hit_rate_at_5": 0.95,
+          "hit_rate_at_10": 0.95,
+          "hit_rate_at_20": 1,
+          "mrr_at_20": 0.9275,
+          "mean_latency_ms": 165.5755
+        },
+        "summary": {
+          "question_count": 20,
+          "hit_rate_at_1": 0.85,
+          "hit_rate_at_5": 1,
+          "hit_rate_at_10": 1,
+          "hit_rate_at_20": 1,
+          "mrr_at_20": 0.891667,
+          "mean_latency_ms": 118.874
+        },
+        "yesno": {
+          "question_count": 20,
+          "hit_rate_at_1": 0.9,
+          "hit_rate_at_5": 1,
+          "hit_rate_at_10": 1,
+          "hit_rate_at_20": 1,
+          "mrr_at_20": 0.926667,
+          "mean_latency_ms": 117.5825
+        }
+      },
+      "by_evidence_risk_prior": {
+        "high": {
+          "question_count": 2,
+          "hit_rate_at_1": 1,
+          "hit_rate_at_5": 1,
+          "hit_rate_at_10": 1,
+          "hit_rate_at_20": 1,
+          "mrr_at_20": 1.0,
+          "mean_latency_ms": 198.27
+        },
+        "low": {
+          "question_count": 51,
+          "hit_rate_at_1": 0.901961,
+          "hit_rate_at_5": 0.960784,
+          "hit_rate_at_10": 0.960784,
+          "hit_rate_at_20": 1,
+          "mrr_at_20": 0.924428,
+          "mean_latency_ms": 129.67549
+        },
+        "medium": {
+          "question_count": 27,
+          "hit_rate_at_1": 0.851852,
+          "hit_rate_at_5": 1,
+          "hit_rate_at_10": 1,
+          "hit_rate_at_20": 1,
+          "mrr_at_20": 0.901235,
+          "mean_latency_ms": 129.935926
+        }
+      }
+    },
+    "hybrid_pubmedbert": {
+      "overall": {
+        "question_count": 80,
+        "hit_rate_at_1": 0.825,
+        "hit_rate_at_5": 0.8875,
+        "hit_rate_at_10": 0.925,
+        "hit_rate_at_20": 0.95,
+        "mrr_at_20": 0.855943,
+        "mean_latency_ms": 202.7535
+      },
+      "by_question_type": {
+        "factoid": {
+          "question_count": 20,
+          "hit_rate_at_1": 0.85,
+          "hit_rate_at_5": 0.9,
+          "hit_rate_at_10": 0.95,
+          "hit_rate_at_20": 0.95,
+          "mrr_at_20": 0.882143,
+          "mean_latency_ms": 200.7665
+        },
+        "list": {
+          "question_count": 20,
+          "hit_rate_at_1": 0.8,
+          "hit_rate_at_5": 0.95,
+          "hit_rate_at_10": 0.95,
+          "hit_rate_at_20": 0.95,
+          "mrr_at_20": 0.858333,
+          "mean_latency_ms": 227.5825
+        },
+        "summary": {
+          "question_count": 20,
+          "hit_rate_at_1": 0.75,
+          "hit_rate_at_5": 0.8,
+          "hit_rate_at_10": 0.85,
+          "hit_rate_at_20": 0.95,
+          "mrr_at_20": 0.777045,
+          "mean_latency_ms": 189.9565
+        },
+        "yesno": {
+          "question_count": 20,
+          "hit_rate_at_1": 0.9,
+          "hit_rate_at_5": 0.9,
+          "hit_rate_at_10": 0.95,
+          "hit_rate_at_20": 0.95,
+          "mrr_at_20": 0.90625,
+          "mean_latency_ms": 192.7085
+        }
+      },
+      "by_evidence_risk_prior": {
+        "high": {
+          "question_count": 2,
+          "hit_rate_at_1": 0.5,
+          "hit_rate_at_5": 0.5,
+          "hit_rate_at_10": 0.5,
+          "hit_rate_at_20": 1,
+          "mrr_at_20": 0.541667,
+          "mean_latency_ms": 289.255
+        },
+        "low": {
+          "question_count": 51,
+          "hit_rate_at_1": 0.843137,
+          "hit_rate_at_5": 0.901961,
+          "hit_rate_at_10": 0.941176,
+          "hit_rate_at_20": 0.941176,
+          "mrr_at_20": 0.874533,
+          "mean_latency_ms": 202.274314
+        },
+        "medium": {
+          "question_count": 27,
+          "hit_rate_at_1": 0.814815,
+          "hit_rate_at_5": 0.888889,
+          "hit_rate_at_10": 0.925926,
+          "hit_rate_at_20": 0.962963,
+          "mrr_at_20": 0.844108,
+          "mean_latency_ms": 197.251111
+        }
+      }
+    },
+    "pubmedbert": {
+      "overall": {
+        "question_count": 80,
+        "hit_rate_at_1": 0.675,
+        "hit_rate_at_5": 0.7875,
+        "hit_rate_at_10": 0.8375,
+        "hit_rate_at_20": 0.8625,
+        "mrr_at_20": 0.727176,
+        "mean_latency_ms": 100.879125
+      },
+      "by_question_type": {
+        "factoid": {
+          "question_count": 20,
+          "hit_rate_at_1": 0.5,
+          "hit_rate_at_5": 0.75,
+          "hit_rate_at_10": 0.8,
+          "hit_rate_at_20": 0.8,
+          "mrr_at_20": 0.6125,
+          "mean_latency_ms": 107.303
+        },
+        "list": {
+          "question_count": 20,
+          "hit_rate_at_1": 0.7,
+          "hit_rate_at_5": 0.8,
+          "hit_rate_at_10": 0.9,
+          "hit_rate_at_20": 0.9,
+          "mrr_at_20": 0.750198,
+          "mean_latency_ms": 92.6055
+        },
+        "summary": {
+          "question_count": 20,
+          "hit_rate_at_1": 0.6,
+          "hit_rate_at_5": 0.65,
+          "hit_rate_at_10": 0.7,
+          "hit_rate_at_20": 0.8,
+          "mrr_at_20": 0.629337,
+          "mean_latency_ms": 100.233
+        },
+        "yesno": {
+          "question_count": 20,
+          "hit_rate_at_1": 0.9,
+          "hit_rate_at_5": 0.95,
+          "hit_rate_at_10": 0.95,
+          "hit_rate_at_20": 0.95,
+          "mrr_at_20": 0.916667,
+          "mean_latency_ms": 103.375
+        }
+      },
+      "by_evidence_risk_prior": {
+        "high": {
+          "question_count": 2,
+          "hit_rate_at_1": 0.5,
+          "hit_rate_at_5": 0.5,
+          "hit_rate_at_10": 0.5,
+          "hit_rate_at_20": 0.5,
+          "mrr_at_20": 0.5,
+          "mean_latency_ms": 119.0
+        },
+        "low": {
+          "question_count": 51,
+          "hit_rate_at_1": 0.686275,
+          "hit_rate_at_5": 0.843137,
+          "hit_rate_at_10": 0.862745,
+          "hit_rate_at_20": 0.862745,
+          "mrr_at_20": 0.751634,
+          "mean_latency_ms": 101.908235
+        },
+        "medium": {
+          "question_count": 27,
+          "hit_rate_at_1": 0.666667,
+          "hit_rate_at_5": 0.703704,
+          "hit_rate_at_10": 0.814815,
+          "hit_rate_at_20": 0.888889,
+          "mrr_at_20": 0.697804,
+          "mean_latency_ms": 97.592963
+        }
+      }
+    }
+  },
+  "scientific_note": "Development-only retrieval comparison. Hybrid selection and route rules are not frozen and no test-set metrics are calculated."
+}

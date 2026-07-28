@@ -1,0 +1,12 @@
+{
+  "generated_at_utc": "2026-07-26T03:24:43.346095+00:00",
+  "question_count": 6,
+  "answer_arm_count": 8,
+  "reused_hybrid_answer_count": 6,
+  "new_graph_selected_answer_count": 2,
+  "expected_new_generation_calls": 2,
+  "expected_new_verifier_calls": 2,
+  "graph_payload_calls": 0,
+  "sample_sha256": "93c7ae4b88042c006f2bfda776b887958266bd07501954fe6c67a8b312320b31",
+  "scientific_note": "This is a protocol-integrity correction, not answer-level tuning."
+}

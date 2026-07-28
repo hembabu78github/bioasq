@@ -1,0 +1,41 @@
+{
+  "generated_at_utc": "2026-07-25T19:33:03.974186+00:00",
+  "status": "pass",
+  "checks": {
+    "generated_48_adversarial_candidates": true,
+    "all_48_adversarial_claims_human_labelled": true,
+    "human_agreement_summary_complete": true,
+    "combined_evaluation_has_76_claims": true,
+    "three_verifier_configurations_present": true,
+    "each_configuration_has_76_predictions": true,
+    "alternate_model_differs_from_baseline": true,
+    "all_prediction_labels_valid": true,
+    "all_228_predictions_have_rationales": true,
+    "all_152_hardened_predictions_have_qualifier_checks": true,
+    "output_completeness_report_passed": true,
+    "sealed_test_not_accessed": true,
+    "selected_configuration_declared": true
+  },
+  "schema_resolution": {
+    "candidate_count_source_field": "corrected_candidate_count",
+    "resolved_candidate_count": 48
+  },
+  "counts": {
+    "adversarial_claims": 48,
+    "combined_claims": 76,
+    "predictions": 228,
+    "nonempty_rationales": 228,
+    "hardened_predictions_with_qualifier_checks": 152,
+    "predictions_by_configuration": {
+      "hardened_prompt_alternate_model": 76,
+      "hardened_prompt_same_model": 76,
+      "original_prompt_same_model": 76
+    },
+    "human_adversarial_label_distribution": {
+      "contradicted": 25,
+      "insufficient_evidence": 23
+    }
+  },
+  "selected_configuration": "hardened_prompt_same_model",
+  "scientific_note": "Passing validation confirms structural and semantic completeness of the development verifier comparison. It does not establish final test performance or clinical deployment validity."
+}

@@ -1,0 +1,56 @@
+{
+  "generated_at_utc": "2026-07-26T14:16:47.490296+00:00",
+  "development_only": true,
+  "sealed_test_accessed": false,
+  "question_count": 24,
+  "logical_answer_count": 72,
+  "unique_execution_job_count": 51,
+  "deduplicated_logical_arm_count": 21,
+  "unique_answer_call_record_count": 51,
+  "unique_verifier_call_record_count": 49,
+  "by_condition": {
+    "bge_text_only": {
+      "answer_count": 24,
+      "claim_count": 67,
+      "verifier_label_counts": {
+        "contradicted": 1,
+        "insufficient_evidence": 7,
+        "supported": 59
+      },
+      "final_release_count": 18,
+      "final_abstention_count": 6,
+      "mean_claim_count": 2.7916666666666665
+    },
+    "hybrid_text_only": {
+      "answer_count": 24,
+      "claim_count": 62,
+      "verifier_label_counts": {
+        "insufficient_evidence": 8,
+        "supported": 54
+      },
+      "final_release_count": 17,
+      "final_abstention_count": 7,
+      "mean_claim_count": 2.5833333333333335
+    },
+    "risk_adaptive": {
+      "answer_count": 24,
+      "claim_count": 64,
+      "verifier_label_counts": {
+        "insufficient_evidence": 4,
+        "supported": 60
+      },
+      "final_release_count": 19,
+      "final_abstention_count": 5,
+      "mean_claim_count": 2.6666666666666665
+    }
+  },
+  "graph_routed_stage7_ids": [
+    "S7Q-009",
+    "S7Q-010",
+    "S7Q-011"
+  ],
+  "graph_payload_supplied_count": 0,
+  "unsupported_claims_released": 0,
+  "final_disposition_policy": "Release only when every atomic claim is verifier-supported; otherwise abstain.",
+  "scientific_note": "Stage 7D-B is a development evaluation. Automated verifier outputs are not human gold and do not justify an efficacy claim."
+}

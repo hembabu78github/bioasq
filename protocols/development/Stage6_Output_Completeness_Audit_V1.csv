@@ -1,0 +1,4 @@
+configuration,prediction_count,empty_rationale_count,affected_group_count,scientifically_complete
+hardened_prompt_alternate_model,76,0,0,True
+hardened_prompt_same_model,76,27,7,False
+original_prompt_same_model,76,11,5,False

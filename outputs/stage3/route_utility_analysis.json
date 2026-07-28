@@ -1,0 +1,64 @@
+{
+  "generated_at_utc": "2026-07-25T06:19:34.374506+00:00",
+  "route_counts_exploratory": {
+    "bge_small": 13,
+    "bm25": 64,
+    "hybrid_bge_small": 3
+  },
+  "bm25_rescue_analysis": {
+    "bge_small": {
+      "bm25_failure_count": 4,
+      "rescued_count": 4,
+      "rescued_question_ids": [
+        "56c07ef5ef6e394741000023",
+        "5c6bedd57c78d69471000034",
+        "5d38790da1e159510500000d",
+        "602c28551cb411341a000123"
+      ]
+    },
+    "hybrid_bge_small": {
+      "bm25_failure_count": 4,
+      "rescued_count": 4,
+      "rescued_question_ids": [
+        "56c07ef5ef6e394741000023",
+        "5c6bedd57c78d69471000034",
+        "5d38790da1e159510500000d",
+        "602c28551cb411341a000123"
+      ]
+    },
+    "hybrid_pubmedbert": {
+      "bm25_failure_count": 4,
+      "rescued_count": 1,
+      "rescued_question_ids": [
+        "56c07ef5ef6e394741000023"
+      ]
+    },
+    "pubmedbert": {
+      "bm25_failure_count": 4,
+      "rescued_count": 0,
+      "rescued_question_ids": []
+    }
+  },
+  "evidence_risk_prior_analysis": {
+    "high": {
+      "question_count": 2,
+      "bm25_failure_at_20_count": 1,
+      "bm25_failure_at_20_rate": 0.5,
+      "hybrid_pubmedbert_failure_at_20_count": 0
+    },
+    "low": {
+      "question_count": 51,
+      "bm25_failure_at_20_count": 2,
+      "bm25_failure_at_20_rate": 0.039216,
+      "hybrid_pubmedbert_failure_at_20_count": 3
+    },
+    "medium": {
+      "question_count": 27,
+      "bm25_failure_at_20_count": 1,
+      "bm25_failure_at_20_rate": 0.037037,
+      "hybrid_pubmedbert_failure_at_20_count": 1
+    }
+  },
+  "risk_prior_status": "Provisional. It is strongly associated with question type and will be retained only if it predicts retrieval failure or route utility on development data beyond question type.",
+  "next_design_rule": "Final adaptive routing must use query-only and retrieval-diagnostic features, such as score margin, score dispersion, agreement between retrievers and graph path availability. Gold relevance is used only to train/evaluate the route policy on train/development data."
+}

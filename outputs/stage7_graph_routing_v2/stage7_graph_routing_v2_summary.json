@@ -1,0 +1,19 @@
+{
+  "generated_at_utc": "2026-07-26T01:48:26.057245+00:00",
+  "development_only": true,
+  "sealed_test_accessed": false,
+  "purpose": "Graph-routing technical stress test only.",
+  "question_count": 8,
+  "graph_call_count": 8,
+  "answer_generation_call_count": 0,
+  "verification_call_count": 0,
+  "graph_stress_route_eligible_count": 1,
+  "graph_stress_evidence_set_change_count": 4,
+  "control_graph_route_eligible_count": 0,
+  "risk_route_counts": {
+    "bge": 3,
+    "graph_coverage": 1,
+    "hybrid": 4
+  },
+  "scientific_note": "Graph selection is deterministic from evidence-provenance edges and answer aspects; the model no longer supplies final snippet rankings."
+}

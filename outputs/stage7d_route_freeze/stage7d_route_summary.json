@@ -1,0 +1,24 @@
+{
+  "generated_at_utc": "2026-07-26T12:48:39.426382+00:00",
+  "development_only": true,
+  "sealed_test_accessed": false,
+  "purpose": "Freeze Stage 7D risk-adaptive routes before answer generation.",
+  "question_count": 24,
+  "list_question_count": 6,
+  "graph_route_eligible_count": 3,
+  "graph_route_stage7_ids": [
+    "S7Q-009",
+    "S7Q-010",
+    "S7Q-011"
+  ],
+  "route_counts": {
+    "graph_selected_text_only": 3,
+    "hybrid_text_only": 21
+  },
+  "reused_stage7b_v3_graph_count": 3,
+  "new_graph_call_count": 3,
+  "answer_generation_call_count": 0,
+  "verification_call_count": 0,
+  "graph_payload_supplied_to_downstream_count": 0,
+  "scientific_note": "The graph is frozen as an evidence selector only. Downstream generation and verification will receive text evidence only."
+}

@@ -1,0 +1,32 @@
+{
+  "generated_at_utc": "2026-07-25T13:19:24.282758+00:00",
+  "status": "pass",
+  "checks": {
+    "development_diagnostics_cover_all_709_questions": true,
+    "diagnostics_report_no_test_access": true,
+    "pilot_has_12_questions": true,
+    "pilot_has_three_questions_per_type": true,
+    "all_pilot_questions_are_in_development": true,
+    "no_pilot_question_is_in_test": true,
+    "all_selected_questions_have_results": true,
+    "all_expected_groq_calls_completed": true,
+    "all_graph_edges_have_evidence_provenance": true,
+    "every_claim_has_a_verification": true,
+    "all_verification_statuses_valid": true,
+    "pilot_summary_states_manual_audit_is_required": true
+  },
+  "counts": {
+    "development_diagnostics": 709,
+    "pilot_questions": 12,
+    "question_types": {
+      "factoid": 3,
+      "list": 3,
+      "summary": 3,
+      "yesno": 3
+    },
+    "missing_edge_provenance": 0,
+    "missing_claim_verification": 0,
+    "invalid_verification_statuses": 0
+  },
+  "scientific_note": "Passing Stage 4 validates feasibility, provenance and schema integrity. It does not establish claim-verification accuracy or clinical validity. A blinded manual audit and larger development evaluation are required before the final test run."
+}

@@ -1,0 +1,32 @@
+{
+  "generated_at_utc": "2026-07-25T04:40:00.801420+00:00",
+  "design": "global deduplicated BioASQ11 gold-snippet bank",
+  "scientific_scope": "Closed-corpus snippet retrieval benchmark. This is not full-PubMed retrieval.",
+  "leakage_control": {
+    "candidate_corpus_contains_question_ids": false,
+    "question_to_gold_mapping_stored_separately": true,
+    "retrieval_code_must_not_read_gold_relevance_before_ranking": true
+  },
+  "source_question_count": 4719,
+  "candidate_snippet_count": 52699,
+  "question_relevance_record_count": 4719,
+  "empty_or_invalid_snippet_count": 0,
+  "files": {
+    "candidate_corpus": {
+      "relative_path": "data\\processed\\stage2\\candidate_snippets.jsonl",
+      "sha256": "fe11c28439d50b2213fe602f7dd60a55be82da7bb4857c4da9f81159520c93e1",
+      "size_bytes": 19298143
+    },
+    "gold_relevance": {
+      "relative_path": "data\\processed\\stage2\\gold_relevance.jsonl",
+      "sha256": "0031a018c9b8aa39692414b8898b5c0a0516d643f50d67e73f2ac6204803a43d",
+      "size_bytes": 3980529
+    },
+    "private_provenance": {
+      "relative_path": "data\\processed\\stage2\\snippet_provenance_private.jsonl",
+      "sha256": "941b901036137699fea32f852e81708ae7cb74f816495969858c06f6c86cc609",
+      "size_bytes": 10306927,
+      "note": "Not consumed by the retriever."
+    }
+  }
+}

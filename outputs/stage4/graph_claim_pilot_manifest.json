@@ -1,0 +1,119 @@
+{
+  "generated_at_utc": "2026-07-25T12:38:59.114427+00:00",
+  "pilot_question_count": 12,
+  "questions_per_type": 3,
+  "selection": "Development-only purposive feasibility sample: prioritize retrieval-hard and high-uncertainty questions, then include medium/low controls, with equal question-type representation.",
+  "not_for_final_performance_estimation": true,
+  "selected_questions": [
+    {
+      "question_id": "512d0e635274a5fb07000005",
+      "question_type": "factoid",
+      "question": "Which is the most widely used anti-TNF drug?",
+      "selection_reason": "retrieval_hard_case",
+      "retrieval_uncertainty_score": 0.910169,
+      "retrieval_uncertainty_label": "high",
+      "provisional_route": "hybrid_bge"
+    },
+    {
+      "question_id": "6026d6891cb411341a0000cc",
+      "question_type": "factoid",
+      "question": "What pathological condition is MK-1602 used for?",
+      "selection_reason": "retrieval_hard_case",
+      "retrieval_uncertainty_score": 0.882768,
+      "retrieval_uncertainty_label": "high",
+      "provisional_route": "hybrid_bge"
+    },
+    {
+      "question_id": "602c1b141cb411341a00011c",
+      "question_type": "factoid",
+      "question": "What is another name for bimagrumab",
+      "selection_reason": "retrieval_hard_case",
+      "retrieval_uncertainty_score": 0.887429,
+      "retrieval_uncertainty_label": "high",
+      "provisional_route": "hybrid_bge"
+    },
+    {
+      "question_id": "530e1c985937551c09000004",
+      "question_type": "list",
+      "question": "List common symptoms of patients with the DOORS syndrome.",
+      "selection_reason": "retrieval_hard_case",
+      "retrieval_uncertainty_score": 0.848164,
+      "retrieval_uncertainty_label": "high",
+      "provisional_route": "hybrid_bge"
+    },
+    {
+      "question_id": "56e460d051531f7e33000019",
+      "question_type": "list",
+      "question": "List the results of mutated casein kinase 1 epsilon. ",
+      "selection_reason": "retrieval_hard_case",
+      "retrieval_uncertainty_score": 0.887853,
+      "retrieval_uncertainty_label": "high",
+      "provisional_route": "hybrid_bge"
+    },
+    {
+      "question_id": "5e494b0e6d0a277941000007",
+      "question_type": "list",
+      "question": "List 3 PD-L1 inhibitors on the market as of 2018.",
+      "selection_reason": "retrieval_hard_case",
+      "retrieval_uncertainty_score": 0.861441,
+      "retrieval_uncertainty_label": "high",
+      "provisional_route": "hybrid_bge"
+    },
+    {
+      "question_id": "5172e9448ed59a060a000018",
+      "question_type": "summary",
+      "question": "Other than protein coding potential, what features set apart long non-coding RNAs from protein coding genes?",
+      "selection_reason": "retrieval_hard_case",
+      "retrieval_uncertainty_score": 0.80339,
+      "retrieval_uncertainty_label": "high",
+      "provisional_route": "hybrid_bge"
+    },
+    {
+      "question_id": "54eded8c94afd6150400000c",
+      "question_type": "summary",
+      "question": "What is considered a reliable technique for the definitive cytogenetic diagnosis of Fanconi anemia homozygosity?",
+      "selection_reason": "retrieval_hard_case",
+      "retrieval_uncertainty_score": 0.896328,
+      "retrieval_uncertainty_label": "high",
+      "provisional_route": "hybrid_bge"
+    },
+    {
+      "question_id": "5e807578835f4e4777000028",
+      "question_type": "summary",
+      "question": "What is a \"cytokine storm\"?",
+      "selection_reason": "retrieval_hard_case",
+      "retrieval_uncertainty_score": 0.670621,
+      "retrieval_uncertainty_label": "high",
+      "provisional_route": "hybrid_bge"
+    },
+    {
+      "question_id": "51757bbb8ed59a060a00002e",
+      "question_type": "yesno",
+      "question": "Are long non coding RNAs as conserved in sequence as protein coding genes?",
+      "selection_reason": "retrieval_hard_case",
+      "retrieval_uncertainty_score": 0.862994,
+      "retrieval_uncertainty_label": "high",
+      "provisional_route": "hybrid_bge"
+    },
+    {
+      "question_id": "58dd054c8acda34529000024",
+      "question_type": "yesno",
+      "question": "Do circRNAs remain untranslated?",
+      "selection_reason": "retrieval_hard_case",
+      "retrieval_uncertainty_score": 0.754096,
+      "retrieval_uncertainty_label": "high",
+      "provisional_route": "hybrid_bge"
+    },
+    {
+      "question_id": "6028ffae1cb411341a000106",
+      "question_type": "yesno",
+      "question": "Does erenumab target the calcitonin gene-related peptide?",
+      "selection_reason": "retrieval_hard_case",
+      "retrieval_uncertainty_score": 0.737853,
+      "retrieval_uncertainty_label": "high",
+      "provisional_route": "hybrid_bge"
+    }
+  ],
+  "selected_file_relative_path": "data\\processed\\stage4\\graph_claim_pilot_ids.json",
+  "selected_file_sha256": "a552453004615419f3fa99b70328be425554e70ea8fe4be1f0c7b775f5449129"
+}

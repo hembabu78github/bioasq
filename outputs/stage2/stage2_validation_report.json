@@ -1,0 +1,26 @@
+{
+  "generated_at_utc": "2026-07-25T04:40:11.582184+00:00",
+  "status": "pass",
+  "checks": {
+    "public_corpus_has_no_question_ids": true,
+    "candidate_snippet_ids_unique": true,
+    "all_gold_relevant_ids_exist_in_candidate_corpus": true,
+    "risk_prior_contains_no_gold_fields": true,
+    "risk_prior_covers_all_relevance_questions": true,
+    "split_has_no_id_overlap": true,
+    "duplicate_question_bodies_do_not_cross_splits": true,
+    "split_covers_all_questions": true,
+    "bm25_pilot_completed": true
+  },
+  "counts": {
+    "candidate_snippets": 52699,
+    "gold_relevance_questions": 4719,
+    "risk_prior_questions": 4719,
+    "split_total": 4719,
+    "public_corpus_question_id_fields": 0,
+    "duplicate_candidate_ids": 0,
+    "missing_gold_snippet_ids": 0,
+    "risk_rows_with_gold_fields": 0
+  },
+  "scientific_note": "Passing this report validates structural leakage controls for the closed snippet-bank benchmark. It does not prove that the benchmark represents full PubMed retrieval or real clinical deployment."
+}

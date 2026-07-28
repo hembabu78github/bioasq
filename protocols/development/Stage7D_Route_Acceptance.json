@@ -1,0 +1,28 @@
+{
+  "accepted_at_utc": "2026-07-26",
+  "status": "accepted_for_stage7d_development_evaluation",
+  "development_only": true,
+  "sealed_test_accessed": false,
+  "route_results_sha256": "1227d2b07bdb4b5ced07b6b818495fc855678bea3a1266ba300fa490c17fa070",
+  "route_summary_sha256": "5dba0477505b16817624c5d06abbdd7ae18bc073927bb43a366f75e33313174e",
+  "route_validation_sha256": "1125329e020977e2683bc33c0dee794d601d1bf2185015ee47d66337032dce23",
+  "question_count": 24,
+  "graph_route_count": 3,
+  "graph_route_stage7_ids": [
+    "S7Q-009",
+    "S7Q-010",
+    "S7Q-011"
+  ],
+  "route_counts": {
+    "graph_selected_text_only": 3,
+    "hybrid_text_only": 21
+  },
+  "review_findings": [
+    "All structural, evidence-selection and sealed-test checks passed.",
+    "Graph routing is restricted to S7Q-009, S7Q-010 and S7Q-011.",
+    "S7Q-008 and S7Q-012 correctly fell back to hybrid because the novel snippets added no graph-exclusive relevant item.",
+    "S7Q-007 correctly fell back because its graph represented only one answer aspect.",
+    "The graph remains an evidence selector only and is never supplied downstream."
+  ],
+  "scientific_scope": "Accepted only as a frozen route manifest for a larger development-only comparison. This acceptance is not a GraphRAG efficacy claim."
+}

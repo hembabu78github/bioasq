@@ -1,0 +1,32 @@
+{
+  "generated_at_utc": "2026-07-27T16:02:13.929906+00:00",
+  "status": "pass",
+  "checks": {
+    "sealed_test_id_hash_is_unchanged": true,
+    "seven_hundred_six_test_questions_present": true,
+    "test_question_type_counts_match_frozen_split": true,
+    "only_frozen_bge_route_is_present": true,
+    "five_unique_evidence_snippets_per_question": true,
+    "all_answers_and_verifications_complete": true,
+    "all_verifier_citations_are_displayed_E1_to_E5": true,
+    "graph_is_never_supplied_downstream": true,
+    "final_disposition_matches_frozen_rule": true,
+    "no_non_supported_claim_is_released": true,
+    "all_gold_scores_are_between_zero_and_one": true,
+    "retrieval_metrics_are_complete": true,
+    "single_frozen_test_manifest_is_recorded": true,
+    "test_gold_access_is_recorded_only_at_finalization": true
+  },
+  "counts": {
+    "questions": 706,
+    "question_type_counts": {
+      "factoid": 212,
+      "list": 135,
+      "summary": 169,
+      "yesno": 190
+    },
+    "releases": 602,
+    "abstentions": 104
+  },
+  "final_rule": "The sealed test is complete. Do not retune or rerun based on these results. Proceed to manuscript analysis and reporting."
+}

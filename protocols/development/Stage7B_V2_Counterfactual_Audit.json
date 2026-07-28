@@ -1,0 +1,129 @@
+{
+  "summary": {
+    "generated_at_utc": "2026-07-26",
+    "status": "v2_gate_not_accepted",
+    "v2_reported_graph_stress_eligible_count": 1,
+    "critical_findings": [
+      "The only V2-eligible case, S7Q-005, had zero graph-exclusive relevant items.",
+      "Its four novel selected snippets had zero marginal graph coverage and were selected only by the novelty bonus.",
+      "S7Q-009 had genuine graph-exclusive evidence but was blocked by an inconsistent model-supplied graph_sufficient flag.",
+      "Factoid and yes/no direct-relation questions should not be the primary GraphRAG routing scope.",
+      "The next gate must test list and summary questions and must require counterfactual graph-exclusive coverage."
+    ],
+    "decision": "Run a final routing-scope V3 gate on three list and three summary questions. Remove zero-coverage novelty, treat graph_sufficient as advisory, and require useful graph-exclusive evidence. If fewer than two of six qualify, remove GraphRAG as a central architectural claim."
+  },
+  "records": [
+    {
+      "stage7_id": "S7Q-005",
+      "question_type": "factoid",
+      "structural_role": "graph_stress",
+      "model_graph_sufficient": true,
+      "v2_graph_route_eligible": true,
+      "evidence_set_changed": true,
+      "relevant_relation_count": 2,
+      "relevant_answer_aspect_count": 1,
+      "graph_exclusive_relevant_item_count": 0,
+      "useful_novel_selected_count": 0,
+      "zero_coverage_novel_selected_count": 4,
+      "interpretation": "V2 marked this route eligible, but hybrid top five already covered every relevant graph item. Four novel snippets were zero-coverage filler."
+    },
+    {
+      "stage7_id": "S7Q-002",
+      "question_type": "factoid",
+      "structural_role": "direct_control",
+      "model_graph_sufficient": true,
+      "v2_graph_route_eligible": false,
+      "evidence_set_changed": true,
+      "relevant_relation_count": 1,
+      "relevant_answer_aspect_count": 1,
+      "graph_exclusive_relevant_item_count": 0,
+      "useful_novel_selected_count": 1,
+      "zero_coverage_novel_selected_count": 4,
+      "interpretation": "Direct numeric control; graph extraction found evidence outside hybrid top five, but policy correctly prevented graph routing."
+    },
+    {
+      "stage7_id": "S7Q-009",
+      "question_type": "list",
+      "structural_role": "graph_stress",
+      "model_graph_sufficient": false,
+      "v2_graph_route_eligible": false,
+      "evidence_set_changed": true,
+      "relevant_relation_count": 6,
+      "relevant_answer_aspect_count": 3,
+      "graph_exclusive_relevant_item_count": 5,
+      "useful_novel_selected_count": 2,
+      "zero_coverage_novel_selected_count": 1,
+      "interpretation": "Strong graph-exclusive coverage: five relevant graph items and two useful novel snippets. V2 blocked it only because the model self-reported graph_sufficient=false."
+    },
+    {
+      "stage7_id": "S7Q-008",
+      "question_type": "list",
+      "structural_role": "direct_control",
+      "model_graph_sufficient": true,
+      "v2_graph_route_eligible": false,
+      "evidence_set_changed": true,
+      "relevant_relation_count": 6,
+      "relevant_answer_aspect_count": 6,
+      "graph_exclusive_relevant_item_count": 0,
+      "useful_novel_selected_count": 1,
+      "zero_coverage_novel_selected_count": 4,
+      "interpretation": "Direct taxonomy control; graph changed evidence, but policy correctly prevented graph routing."
+    },
+    {
+      "stage7_id": "S7Q-017",
+      "question_type": "summary",
+      "structural_role": "graph_stress",
+      "model_graph_sufficient": false,
+      "v2_graph_route_eligible": false,
+      "evidence_set_changed": true,
+      "relevant_relation_count": 0,
+      "relevant_answer_aspect_count": 0,
+      "graph_exclusive_relevant_item_count": 0,
+      "useful_novel_selected_count": 0,
+      "zero_coverage_novel_selected_count": 5,
+      "interpretation": "Candidate graph contained entities but no evidence-backed relations or answer aspects; graph route is not justified."
+    },
+    {
+      "stage7_id": "S7Q-018",
+      "question_type": "summary",
+      "structural_role": "direct_control",
+      "model_graph_sufficient": false,
+      "v2_graph_route_eligible": false,
+      "evidence_set_changed": true,
+      "relevant_relation_count": 6,
+      "relevant_answer_aspect_count": 0,
+      "graph_exclusive_relevant_item_count": 1,
+      "useful_novel_selected_count": 1,
+      "zero_coverage_novel_selected_count": 1,
+      "interpretation": "Policy-summary control; one exclusive relation was found but the task is outside the biomedical graph-routing scope."
+    },
+    {
+      "stage7_id": "S7Q-021",
+      "question_type": "yesno",
+      "structural_role": "graph_stress",
+      "model_graph_sufficient": false,
+      "v2_graph_route_eligible": false,
+      "evidence_set_changed": true,
+      "relevant_relation_count": 4,
+      "relevant_answer_aspect_count": 0,
+      "graph_exclusive_relevant_item_count": 1,
+      "useful_novel_selected_count": 1,
+      "zero_coverage_novel_selected_count": 2,
+      "interpretation": "One graph-exclusive relation was found, but the yes/no question is answered directly by hybrid top evidence; graph routing is unnecessary."
+    },
+    {
+      "stage7_id": "S7Q-020",
+      "question_type": "yesno",
+      "structural_role": "direct_control",
+      "model_graph_sufficient": false,
+      "v2_graph_route_eligible": false,
+      "evidence_set_changed": true,
+      "relevant_relation_count": 0,
+      "relevant_answer_aspect_count": 0,
+      "graph_exclusive_relevant_item_count": 0,
+      "useful_novel_selected_count": 0,
+      "zero_coverage_novel_selected_count": 5,
+      "interpretation": "Direct feasibility control; no evidence-backed graph items were produced."
+    }
+  ]
+}

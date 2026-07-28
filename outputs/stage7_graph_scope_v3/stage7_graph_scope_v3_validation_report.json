@@ -1,0 +1,27 @@
+{
+  "generated_at_utc": "2026-07-26T02:58:23.167806+00:00",
+  "status": "pass",
+  "checks": {
+    "scope_gate_has_6_questions": true,
+    "three_list_and_three_summary_questions": true,
+    "six_graph_outputs_present": true,
+    "every_selector_returns_five_unique_snippets": true,
+    "zero_coverage_novelty_never_selected": true,
+    "at_least_two_questions_have_graph_exclusive_value": true,
+    "every_eligible_route_has_useful_novel_evidence": true,
+    "every_eligible_route_has_two_answer_aspects": true,
+    "no_factoid_or_yesno_questions_in_scope_gate": true,
+    "no_answer_or_verifier_calls_made": true,
+    "sealed_test_not_accessed": true
+  },
+  "counts": {
+    "questions": 6,
+    "eligible_graph_routes": 2,
+    "eligible_question_ids": [
+      "S7Q-009",
+      "S7Q-011"
+    ]
+  },
+  "architectural_decision": "Retain GraphRAG as a selective list/summary route and proceed to a verifier-driven answer smoke.",
+  "scientific_note": "This is a development technical gate, not a final performance estimate."
+}

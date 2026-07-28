@@ -1,0 +1,35 @@
+{
+  "generated_at_utc": "2026-07-25T13:30:48.118867+00:00",
+  "question_count": 12,
+  "text_only": {
+    "question_count": 12,
+    "claim_count": 28,
+    "verification_status_counts": {
+      "insufficient_evidence": 1,
+      "supported": 27
+    },
+    "abstention_count": 1,
+    "abstention_rate": 0.083333,
+    "mean_supported_claim_ratio": 0.958333
+  },
+  "graph_assisted": {
+    "question_count": 12,
+    "claim_count": 28,
+    "verification_status_counts": {
+      "insufficient_evidence": 4,
+      "supported": 24
+    },
+    "abstention_count": 2,
+    "abstention_rate": 0.166667,
+    "mean_supported_claim_ratio": 0.895833
+  },
+  "graph_utility_audit": {
+    "identical_text_and_graph_answer_count": 12,
+    "identical_text_and_graph_answer_rate": 1.0,
+    "questions_with_at_least_one_graph_edge": 9,
+    "questions_with_graph_edge_referenced_by_generated_claim": 9,
+    "questions_with_graph_answer_support_ratio_above_text": 0,
+    "questions_with_graph_answer_support_ratio_below_text": 1
+  },
+  "interpretation": "Corrected development feasibility summary. Model-generated verification labels are not gold labels and may not be reported as verification accuracy."
+}

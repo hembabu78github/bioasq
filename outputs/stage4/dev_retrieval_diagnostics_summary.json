@@ -1,0 +1,249 @@
+{
+  "generated_at_utc": "2026-07-25T12:38:58.020384+00:00",
+  "development_question_count": 709,
+  "test_questions_accessed": false,
+  "methods": {
+    "bm25": {
+      "overall": {
+        "question_count": 709,
+        "hit_rate_at_1": 0.700987,
+        "hit_rate_at_5": 0.850494,
+        "hit_rate_at_10": 0.885755,
+        "hit_rate_at_20": 0.921016,
+        "mrr_at_20": 0.76674
+      },
+      "by_uncertainty": {
+        "low": {
+          "question_count": 157,
+          "hit_rate_at_1": 0.89172,
+          "hit_rate_at_5": 0.936306,
+          "hit_rate_at_10": 0.949045,
+          "hit_rate_at_20": 0.980892,
+          "mrr_at_20": 0.914445
+        },
+        "medium": {
+          "question_count": 253,
+          "hit_rate_at_1": 0.770751,
+          "hit_rate_at_5": 0.920949,
+          "hit_rate_at_10": 0.936759,
+          "hit_rate_at_20": 0.956522,
+          "mrr_at_20": 0.833688
+        },
+        "high": {
+          "question_count": 299,
+          "hit_rate_at_1": 0.541806,
+          "hit_rate_at_5": 0.745819,
+          "hit_rate_at_10": 0.809365,
+          "hit_rate_at_20": 0.859532,
+          "mrr_at_20": 0.632534
+        }
+      },
+      "by_question_type": {
+        "factoid": {
+          "question_count": 213,
+          "hit_rate_at_1": 0.680751,
+          "hit_rate_at_5": 0.85446,
+          "hit_rate_at_10": 0.877934,
+          "hit_rate_at_20": 0.929577,
+          "mrr_at_20": 0.752534
+        },
+        "list": {
+          "question_count": 135,
+          "hit_rate_at_1": 0.585185,
+          "hit_rate_at_5": 0.748148,
+          "hit_rate_at_10": 0.844444,
+          "hit_rate_at_20": 0.888889,
+          "mrr_at_20": 0.667113
+        },
+        "summary": {
+          "question_count": 170,
+          "hit_rate_at_1": 0.694118,
+          "hit_rate_at_5": 0.852941,
+          "hit_rate_at_10": 0.870588,
+          "hit_rate_at_20": 0.905882,
+          "mrr_at_20": 0.760062
+        },
+        "yesno": {
+          "question_count": 191,
+          "hit_rate_at_1": 0.811518,
+          "hit_rate_at_5": 0.91623,
+          "hit_rate_at_10": 0.937173,
+          "hit_rate_at_20": 0.947644,
+          "mrr_at_20": 0.858942
+        }
+      }
+    },
+    "bge": {
+      "overall": {
+        "question_count": 709,
+        "hit_rate_at_1": 0.815233,
+        "hit_rate_at_5": 0.928068,
+        "hit_rate_at_10": 0.946403,
+        "hit_rate_at_20": 0.96615,
+        "mrr_at_20": 0.865843
+      },
+      "by_uncertainty": {
+        "low": {
+          "question_count": 157,
+          "hit_rate_at_1": 0.89172,
+          "hit_rate_at_5": 0.955414,
+          "hit_rate_at_10": 0.968153,
+          "hit_rate_at_20": 0.974522,
+          "mrr_at_20": 0.917994
+        },
+        "medium": {
+          "question_count": 253,
+          "hit_rate_at_1": 0.865613,
+          "hit_rate_at_5": 0.952569,
+          "hit_rate_at_10": 0.972332,
+          "hit_rate_at_20": 0.980237,
+          "mrr_at_20": 0.907639
+        },
+        "high": {
+          "question_count": 299,
+          "hit_rate_at_1": 0.732441,
+          "hit_rate_at_5": 0.892977,
+          "hit_rate_at_10": 0.913043,
+          "hit_rate_at_20": 0.949833,
+          "mrr_at_20": 0.803094
+        }
+      },
+      "by_question_type": {
+        "factoid": {
+          "question_count": 213,
+          "hit_rate_at_1": 0.765258,
+          "hit_rate_at_5": 0.882629,
+          "hit_rate_at_10": 0.915493,
+          "hit_rate_at_20": 0.953052,
+          "mrr_at_20": 0.821206
+        },
+        "list": {
+          "question_count": 135,
+          "hit_rate_at_1": 0.733333,
+          "hit_rate_at_5": 0.881481,
+          "hit_rate_at_10": 0.903704,
+          "hit_rate_at_20": 0.933333,
+          "mrr_at_20": 0.79648
+        },
+        "summary": {
+          "question_count": 170,
+          "hit_rate_at_1": 0.852941,
+          "hit_rate_at_5": 0.976471,
+          "hit_rate_at_10": 0.988235,
+          "hit_rate_at_20": 0.994118,
+          "mrr_at_20": 0.908515
+        },
+        "yesno": {
+          "question_count": 191,
+          "hit_rate_at_1": 0.895288,
+          "hit_rate_at_5": 0.968586,
+          "hit_rate_at_10": 0.973822,
+          "hit_rate_at_20": 0.979058,
+          "mrr_at_20": 0.926668
+        }
+      }
+    },
+    "hybrid": {
+      "overall": {
+        "question_count": 709,
+        "hit_rate_at_1": 0.80536,
+        "hit_rate_at_5": 0.922426,
+        "hit_rate_at_10": 0.944993,
+        "hit_rate_at_20": 0.96756,
+        "mrr_at_20": 0.855247
+      },
+      "by_uncertainty": {
+        "low": {
+          "question_count": 157,
+          "hit_rate_at_1": 0.89172,
+          "hit_rate_at_5": 0.949045,
+          "hit_rate_at_10": 0.968153,
+          "hit_rate_at_20": 0.987261,
+          "mrr_at_20": 0.917314
+        },
+        "medium": {
+          "question_count": 253,
+          "hit_rate_at_1": 0.84585,
+          "hit_rate_at_5": 0.952569,
+          "hit_rate_at_10": 0.964427,
+          "hit_rate_at_20": 0.968379,
+          "mrr_at_20": 0.892154
+        },
+        "high": {
+          "question_count": 299,
+          "hit_rate_at_1": 0.725753,
+          "hit_rate_at_5": 0.882943,
+          "hit_rate_at_10": 0.916388,
+          "hit_rate_at_20": 0.956522,
+          "mrr_at_20": 0.791429
+        }
+      },
+      "by_question_type": {
+        "factoid": {
+          "question_count": 213,
+          "hit_rate_at_1": 0.788732,
+          "hit_rate_at_5": 0.901408,
+          "hit_rate_at_10": 0.943662,
+          "hit_rate_at_20": 0.967136,
+          "mrr_at_20": 0.840627
+        },
+        "list": {
+          "question_count": 135,
+          "hit_rate_at_1": 0.733333,
+          "hit_rate_at_5": 0.874074,
+          "hit_rate_at_10": 0.888889,
+          "hit_rate_at_20": 0.948148,
+          "mrr_at_20": 0.788442
+        },
+        "summary": {
+          "question_count": 170,
+          "hit_rate_at_1": 0.817647,
+          "hit_rate_at_5": 0.958824,
+          "hit_rate_at_10": 0.970588,
+          "hit_rate_at_20": 0.976471,
+          "mrr_at_20": 0.876333
+        },
+        "yesno": {
+          "question_count": 191,
+          "hit_rate_at_1": 0.863874,
+          "hit_rate_at_5": 0.947644,
+          "hit_rate_at_10": 0.963351,
+          "hit_rate_at_20": 0.973822,
+          "mrr_at_20": 0.900003
+        }
+      }
+    }
+  },
+  "retrieval_uncertainty": {
+    "definition": "Deployment-available composite of BGE/BM25 score margins, top-10 overlap and top-1 agreement. It uses no gold answers or relevance labels.",
+    "label_counts": {
+      "high": 299,
+      "low": 157,
+      "medium": 253
+    },
+    "bge_failure_at_5_by_label": {
+      "low": {
+        "question_count": 157,
+        "failure_count": 7
+      },
+      "medium": {
+        "question_count": 253,
+        "failure_count": 12
+      },
+      "high": {
+        "question_count": 299,
+        "failure_count": 32
+      }
+    }
+  },
+  "hybrid_effect": {
+    "improves_rank_by_3_or_more_count": 25,
+    "hurts_rank_by_3_or_more_count": 32,
+    "bge_failure_at_5_count": 51
+  },
+  "private_outputs": {
+    "diagnostics": "data\\processed\\stage4\\dev_retrieval_diagnostics_private.jsonl",
+    "rankings": "data\\processed\\stage4\\dev_retrieval_rankings_private.jsonl"
+  },
+  "scientific_note": "All performance analysis is development-only. The uncertainty score is provisional and will be retained only if it separates retrieval failures or graph/verification utility."
+}

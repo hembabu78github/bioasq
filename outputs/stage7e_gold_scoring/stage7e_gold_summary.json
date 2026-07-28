@@ -1,0 +1,297 @@
+{
+  "generated_at_utc": "2026-07-26T15:31:52.283445+00:00",
+  "development_only": true,
+  "sealed_test_accessed": false,
+  "bioasq_json_path": "D:\\Prog\\JMS_RAG\\data\\raw\\bioasq11\\training11b.json",
+  "bioasq_json_sha256": "6df656862ca860efc355c7805d07ddca700d64ecc3785c519a49afccaaeeac98",
+  "accepted_stage7d_results_sha256": "d28008c3cec4ef81bd6e2e98a0f7708f9c9606dd65c7607dd487e1ad8f972a66",
+  "question_count": 24,
+  "logical_arm_count": 48,
+  "conditions": {
+    "bge_text_only": {
+      "by_type": {
+        "factoid": {
+          "question_count": 6,
+          "release_count": 5,
+          "coverage": 0.8333333333333334,
+          "deployed_primary_mean": 0.6666666666666666,
+          "deployed_strict_mean": 0.6666666666666666,
+          "raw_primary_mean": 0.6666666666666666,
+          "raw_strict_mean": 0.6666666666666666
+        },
+        "list": {
+          "question_count": 6,
+          "release_count": 3,
+          "coverage": 0.5,
+          "deployed_primary_mean": 0.3444444444444444,
+          "deployed_strict_mean": 0.3444444444444444,
+          "raw_primary_mean": 0.4580808080808081,
+          "raw_strict_mean": 0.4580808080808081
+        },
+        "summary": {
+          "question_count": 6,
+          "release_count": 4,
+          "coverage": 0.6666666666666666,
+          "deployed_primary_mean": 0.15376994673021907,
+          "deployed_strict_mean": 0.15376994673021907,
+          "raw_primary_mean": 0.22555486912489756,
+          "raw_strict_mean": 0.22555486912489756
+        },
+        "yesno": {
+          "question_count": 6,
+          "release_count": 6,
+          "coverage": 1.0,
+          "deployed_primary_mean": 1.0,
+          "deployed_strict_mean": 1.0,
+          "raw_primary_mean": 1.0,
+          "raw_strict_mean": 1.0
+        }
+      },
+      "deployed_primary_composite": 0.5412202644603326,
+      "deployed_strict_composite": 0.5412202644603326,
+      "raw_primary_composite": 0.5875755859680931,
+      "raw_strict_composite": 0.5875755859680931,
+      "overall_coverage": 0.75
+    },
+    "hybrid_text_only": {
+      "by_type": {
+        "factoid": {
+          "question_count": 6,
+          "release_count": 4,
+          "coverage": 0.6666666666666666,
+          "deployed_primary_mean": 0.6666666666666666,
+          "deployed_strict_mean": 0.6666666666666666,
+          "raw_primary_mean": 0.6666666666666666,
+          "raw_strict_mean": 0.6666666666666666
+        },
+        "list": {
+          "question_count": 6,
+          "release_count": 4,
+          "coverage": 0.6666666666666666,
+          "deployed_primary_mean": 0.5277777777777778,
+          "deployed_strict_mean": 0.4861111111111111,
+          "raw_primary_mean": 0.6351851851851852,
+          "raw_strict_mean": 0.5194444444444445
+        },
+        "summary": {
+          "question_count": 6,
+          "release_count": 4,
+          "coverage": 0.6666666666666666,
+          "deployed_primary_mean": 0.19299066586802438,
+          "deployed_strict_mean": 0.19299066586802438,
+          "raw_primary_mean": 0.28422579239726853,
+          "raw_strict_mean": 0.28422579239726853
+        },
+        "yesno": {
+          "question_count": 6,
+          "release_count": 5,
+          "coverage": 0.8333333333333334,
+          "deployed_primary_mean": 0.8333333333333334,
+          "deployed_strict_mean": 0.8333333333333334,
+          "raw_primary_mean": 0.8333333333333334,
+          "raw_strict_mean": 0.8333333333333334
+        }
+      },
+      "deployed_primary_composite": 0.5551921109114506,
+      "deployed_strict_composite": 0.5447754442447839,
+      "raw_primary_composite": 0.6048527443956134,
+      "raw_strict_composite": 0.5759175592104283,
+      "overall_coverage": 0.7083333333333334
+    }
+  },
+  "paired_comparison": {
+    "hybrid_minus_bge_observed_mean": 0.013971846451117986,
+    "bootstrap_95_ci": [
+      -0.11682818459912857,
+      0.14319341780740577
+    ],
+    "bootstrap_hybrid_win_probability": 0.5862,
+    "paired_questions": [
+      {
+        "stage7_id": "S7Q-001",
+        "question_type": "factoid",
+        "bge_deployed_primary_score": 1.0,
+        "hybrid_deployed_primary_score": 1.0,
+        "hybrid_minus_bge": 0.0
+      },
+      {
+        "stage7_id": "S7Q-002",
+        "question_type": "factoid",
+        "bge_deployed_primary_score": 1.0,
+        "hybrid_deployed_primary_score": 1.0,
+        "hybrid_minus_bge": 0.0
+      },
+      {
+        "stage7_id": "S7Q-003",
+        "question_type": "factoid",
+        "bge_deployed_primary_score": 1.0,
+        "hybrid_deployed_primary_score": 1.0,
+        "hybrid_minus_bge": 0.0
+      },
+      {
+        "stage7_id": "S7Q-004",
+        "question_type": "factoid",
+        "bge_deployed_primary_score": 0.0,
+        "hybrid_deployed_primary_score": 0.0,
+        "hybrid_minus_bge": 0.0
+      },
+      {
+        "stage7_id": "S7Q-005",
+        "question_type": "factoid",
+        "bge_deployed_primary_score": 1.0,
+        "hybrid_deployed_primary_score": 1.0,
+        "hybrid_minus_bge": 0.0
+      },
+      {
+        "stage7_id": "S7Q-006",
+        "question_type": "factoid",
+        "bge_deployed_primary_score": 0.0,
+        "hybrid_deployed_primary_score": 0.0,
+        "hybrid_minus_bge": 0.0
+      },
+      {
+        "stage7_id": "S7Q-007",
+        "question_type": "list",
+        "bge_deployed_primary_score": 0.6666666666666666,
+        "hybrid_deployed_primary_score": 0.6666666666666666,
+        "hybrid_minus_bge": 0.0
+      },
+      {
+        "stage7_id": "S7Q-008",
+        "question_type": "list",
+        "bge_deployed_primary_score": 1.0,
+        "hybrid_deployed_primary_score": 1.0,
+        "hybrid_minus_bge": 0.0
+      },
+      {
+        "stage7_id": "S7Q-009",
+        "question_type": "list",
+        "bge_deployed_primary_score": 0.0,
+        "hybrid_deployed_primary_score": 0.5,
+        "hybrid_minus_bge": 0.5
+      },
+      {
+        "stage7_id": "S7Q-010",
+        "question_type": "list",
+        "bge_deployed_primary_score": 0.0,
+        "hybrid_deployed_primary_score": 0.0,
+        "hybrid_minus_bge": 0.0
+      },
+      {
+        "stage7_id": "S7Q-011",
+        "question_type": "list",
+        "bge_deployed_primary_score": 0.4,
+        "hybrid_deployed_primary_score": 0.0,
+        "hybrid_minus_bge": -0.4
+      },
+      {
+        "stage7_id": "S7Q-012",
+        "question_type": "list",
+        "bge_deployed_primary_score": 0.0,
+        "hybrid_deployed_primary_score": 1.0,
+        "hybrid_minus_bge": 1.0
+      },
+      {
+        "stage7_id": "S7Q-013",
+        "question_type": "summary",
+        "bge_deployed_primary_score": 0.0,
+        "hybrid_deployed_primary_score": 0.0,
+        "hybrid_minus_bge": 0.0
+      },
+      {
+        "stage7_id": "S7Q-014",
+        "question_type": "summary",
+        "bge_deployed_primary_score": 0.1945945945945946,
+        "hybrid_deployed_primary_score": 0.1142857142857143,
+        "hybrid_minus_bge": -0.08030888030888031
+      },
+      {
+        "stage7_id": "S7Q-015",
+        "question_type": "summary",
+        "bge_deployed_primary_score": 0.28426395939086296,
+        "hybrid_deployed_primary_score": 0.6037735849056604,
+        "hybrid_minus_bge": 0.3195096255147974
+      },
+      {
+        "stage7_id": "S7Q-016",
+        "question_type": "summary",
+        "bge_deployed_primary_score": 0.22754491017964074,
+        "hybrid_deployed_primary_score": 0.23611111111111116,
+        "hybrid_minus_bge": 0.008566200931470425
+      },
+      {
+        "stage7_id": "S7Q-017",
+        "question_type": "summary",
+        "bge_deployed_primary_score": 0.21621621621621626,
+        "hybrid_deployed_primary_score": 0.20377358490566036,
+        "hybrid_minus_bge": -0.012442631310555896
+      },
+      {
+        "stage7_id": "S7Q-018",
+        "question_type": "summary",
+        "bge_deployed_primary_score": 0.0,
+        "hybrid_deployed_primary_score": 0.0,
+        "hybrid_minus_bge": 0.0
+      },
+      {
+        "stage7_id": "S7Q-019",
+        "question_type": "yesno",
+        "bge_deployed_primary_score": 1.0,
+        "hybrid_deployed_primary_score": 1.0,
+        "hybrid_minus_bge": 0.0
+      },
+      {
+        "stage7_id": "S7Q-020",
+        "question_type": "yesno",
+        "bge_deployed_primary_score": 1.0,
+        "hybrid_deployed_primary_score": 1.0,
+        "hybrid_minus_bge": 0.0
+      },
+      {
+        "stage7_id": "S7Q-021",
+        "question_type": "yesno",
+        "bge_deployed_primary_score": 1.0,
+        "hybrid_deployed_primary_score": 1.0,
+        "hybrid_minus_bge": 0.0
+      },
+      {
+        "stage7_id": "S7Q-022",
+        "question_type": "yesno",
+        "bge_deployed_primary_score": 1.0,
+        "hybrid_deployed_primary_score": 0.0,
+        "hybrid_minus_bge": -1.0
+      },
+      {
+        "stage7_id": "S7Q-023",
+        "question_type": "yesno",
+        "bge_deployed_primary_score": 1.0,
+        "hybrid_deployed_primary_score": 1.0,
+        "hybrid_minus_bge": 0.0
+      },
+      {
+        "stage7_id": "S7Q-024",
+        "question_type": "yesno",
+        "bge_deployed_primary_score": 1.0,
+        "hybrid_deployed_primary_score": 1.0,
+        "hybrid_minus_bge": 0.0
+      }
+    ]
+  },
+  "route_decision": {
+    "development_only": true,
+    "sealed_test_accessed": false,
+    "selected_final_text_route": "bge_text_only",
+    "decision_basis": "The 95% paired-bootstrap CI includes zero; BGE is selected by the frozen parsimony tie rule.",
+    "hybrid_minus_bge_observed_mean": 0.013971846451117986,
+    "hybrid_minus_bge_bootstrap_95_ci": [
+      -0.11682818459912857,
+      0.14319341780740577
+    ],
+    "bootstrap_hybrid_win_probability": 0.5862,
+    "bootstrap_samples": 10000,
+    "bootstrap_seed": 20260726,
+    "graph_route_status": "excluded_from_main_architecture",
+    "next_gate": "Review and accept the gold-scoring outputs, freeze the selected text-only route, and only then prepare the one-time sealed-test evaluation."
+  },
+  "scientific_note": "The development sample is balanced but small. The predeclared paired-bootstrap and parsimony rule select the final text-only route without accessing the test set."
+}

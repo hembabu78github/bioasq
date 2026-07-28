@@ -1,0 +1,24 @@
+{
+  "generated_at_utc": "2026-07-26T12:47:15.769215+00:00",
+  "question_count": 24,
+  "question_type_counts": {
+    "factoid": 6,
+    "list": 6,
+    "summary": 6,
+    "yesno": 6
+  },
+  "list_question_count": 6,
+  "candidate_pool_size": 20,
+  "selected_evidence_count": 5,
+  "reusable_stage7b_v3_routes": [
+    "S7Q-007",
+    "S7Q-009",
+    "S7Q-011"
+  ],
+  "maximum_new_graph_calls": 3,
+  "answer_generation_calls": 0,
+  "verification_calls": 0,
+  "route_scope": "deterministically eligible list questions only",
+  "sample_sha256": "bd4eba07b0d7c169da9c8540d2dcf786e38da4192193d0192bd7bc58dc3f2536",
+  "scientific_note": "This step freezes routing prevalence and evidence sets. It does not estimate answer quality or access the sealed test."
+}

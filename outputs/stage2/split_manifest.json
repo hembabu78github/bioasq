@@ -1,0 +1,57 @@
+{
+  "generated_at_utc": "2026-07-25T04:40:01.262569+00:00",
+  "seed": 20260725,
+  "ratios": {
+    "train": 0.7,
+    "dev": 0.15,
+    "test": 0.15
+  },
+  "method": "Stratify by BioASQ question type; group exact normalized duplicate bodies; assign complete groups deterministically to train/dev/test.",
+  "counts": {
+    "train": 3304,
+    "dev": 709,
+    "test": 706
+  },
+  "question_type_counts": {
+    "train": {
+      "factoid": 992,
+      "list": 631,
+      "summary": 791,
+      "yesno": 890
+    },
+    "dev": {
+      "factoid": 213,
+      "list": 135,
+      "summary": 170,
+      "yesno": 191
+    },
+    "test": {
+      "factoid": 212,
+      "list": 135,
+      "summary": 169,
+      "yesno": 190
+    }
+  },
+  "id_overlap_counts": {
+    "train_dev": 0,
+    "train_test": 0,
+    "dev_test": 0
+  },
+  "duplicate_body_group_leakage_count": 0,
+  "duplicate_body_group_leakage_examples": [],
+  "files": {
+    "train": {
+      "relative_path": "data\\processed\\stage2\\train_ids.txt",
+      "sha256": "d655130bbab28099ab609fc6582a65f2fc2b34300f548cebeb0fde64f3f55ffe"
+    },
+    "dev": {
+      "relative_path": "data\\processed\\stage2\\dev_ids.txt",
+      "sha256": "8ca5adf20026a22a56073385cd03c9bb2f6791b05d01026376ee1ffd43eaf8f8"
+    },
+    "test": {
+      "relative_path": "data\\processed\\stage2\\test_ids.txt",
+      "sha256": "98cc5c05332ced0bac32e7a051cb8294ce81a572eb2faa5ea96dff3373acfb88"
+    }
+  },
+  "sealed_test_rule": "All threshold tuning, routing-policy development and prompt/model selection must use train/dev data only. Test IDs and labels are not to be used for tuning."
+}

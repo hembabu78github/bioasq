@@ -1,0 +1,41 @@
+{
+  "generated_at_utc": "2026-07-25",
+  "claim_count": 48,
+  "agreement_count": 48,
+  "disagreement_count": 0,
+  "percent_agreement": 1.0,
+  "cohen_kappa": 1.0,
+  "annotator_A_label_counts": {
+    "contradicted": 25,
+    "insufficient_evidence": 23
+  },
+  "annotator_B_label_counts": {
+    "contradicted": 25,
+    "insufficient_evidence": 23
+  },
+  "confusion_matrix_A_rows_B_columns": {
+    "supported": {
+      "supported": 0,
+      "contradicted": 0,
+      "insufficient_evidence": 0
+    },
+    "contradicted": {
+      "supported": 0,
+      "contradicted": 25,
+      "insufficient_evidence": 0
+    },
+    "insufficient_evidence": {
+      "supported": 0,
+      "contradicted": 0,
+      "insufficient_evidence": 23
+    }
+  },
+  "all_rows_have_rationales": true,
+  "identical_rationale_count": 1,
+  "identical_rationale_ids": [
+    "ADV-045"
+  ],
+  "model_predictions_accessed": false,
+  "status": "complete_agreement",
+  "scientific_note": "All 48 adversarial claims received independent completed labels. Because there were no disagreements, agreed labels were automatically copied into adjudicated_label."
+}

@@ -1,0 +1,60 @@
+{
+  "generated_at_utc": "2026-07-25T22:19:16.072098+00:00",
+  "mode": "smoke",
+  "development_only": true,
+  "sealed_test_accessed": false,
+  "question_count": 8,
+  "condition_count": 4,
+  "answer_count": 32,
+  "conditions": [
+    "bge_text_only",
+    "hybrid_text_only",
+    "graph_reranked",
+    "risk_adaptive_agentic"
+  ],
+  "by_condition": {
+    "bge_text_only": {
+      "answer_count": 8,
+      "abstention_count": 0,
+      "claim_count": 20,
+      "verifier_label_counts": {
+        "contradicted": 1,
+        "insufficient_evidence": 3,
+        "supported": 16
+      },
+      "mean_claims_per_answer": 2.5
+    },
+    "hybrid_text_only": {
+      "answer_count": 8,
+      "abstention_count": 0,
+      "claim_count": 24,
+      "verifier_label_counts": {
+        "insufficient_evidence": 3,
+        "supported": 21
+      },
+      "mean_claims_per_answer": 3
+    },
+    "graph_reranked": {
+      "answer_count": 8,
+      "abstention_count": 0,
+      "claim_count": 26,
+      "verifier_label_counts": {
+        "insufficient_evidence": 2,
+        "supported": 24
+      },
+      "mean_claims_per_answer": 3.25
+    },
+    "risk_adaptive_agentic": {
+      "answer_count": 8,
+      "abstention_count": 0,
+      "claim_count": 27,
+      "verifier_label_counts": {
+        "insufficient_evidence": 1,
+        "supported": 26
+      },
+      "mean_claims_per_answer": 3.375
+    }
+  },
+  "graph_suitable_graph_condition_evidence_change_count": 1,
+  "scientific_note": "Smoke outputs are technical feasibility results only. They are not final GraphRAG performance estimates."
+}

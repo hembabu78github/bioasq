@@ -1,0 +1,7 @@
+stage7_id,question_type,model_graph_sufficient,relevant_relation_count,relevant_answer_aspect_count,graph_exclusive_relevant_item_count,useful_novel_selected_count,evidence_set_changed,graph_route_eligible,eligibility_source,scope_decision
+S7Q-007,list,True,1,1,0,0,False,False,not_eligible,fallback to hybrid retrieval
+S7Q-009,list,False,6,3,5,2,True,True,deterministic_override_of_model_flag,retain selective multi-entity list route
+S7Q-011,list,True,3,3,2,2,True,True,model_and_deterministic,retain selective multi-entity list route
+S7Q-013,summary,True,5,4,0,0,False,False,not_eligible,fallback to hybrid retrieval
+S7Q-015,summary,True,8,5,0,0,False,False,not_eligible,fallback to hybrid retrieval
+S7Q-017,summary,False,0,0,0,0,False,False,not_eligible,fallback to hybrid retrieval

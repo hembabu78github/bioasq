@@ -1,0 +1,28 @@
+{
+  "generated_at_utc": "2026-07-26T13:00:18.002980+00:00",
+  "development_only": true,
+  "sealed_test_accessed": false,
+  "accepted_route_sha256": "1227d2b07bdb4b5ced07b6b818495fc855678bea3a1266ba300fa490c17fa070",
+  "logical_question_count": 24,
+  "logical_arm_count": 72,
+  "condition_counts": {
+    "bge_text_only": 24,
+    "hybrid_text_only": 24,
+    "risk_adaptive": 24
+  },
+  "unique_execution_job_count": 51,
+  "deduplicated_logical_arm_count": 21,
+  "maximum_generation_calls": 51,
+  "maximum_verifier_calls": 51,
+  "batch_size": 6,
+  "batch_count": 9,
+  "graph_route_stage7_ids": [
+    "S7Q-009",
+    "S7Q-010",
+    "S7Q-011"
+  ],
+  "graph_payload_supplied_count": 0,
+  "prompt_version": "stage7d_evidence_closed_v1",
+  "model": "openai/gpt-oss-20b",
+  "scientific_note": "Seventy-two logical arms are retained. Exact question-and-evidence duplicates share one deterministic execution job, avoiding unnecessary API calls without changing the comparison."
+}

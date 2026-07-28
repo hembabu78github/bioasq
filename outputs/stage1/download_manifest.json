@@ -1,0 +1,19 @@
+{
+  "generated_at_utc": "2026-07-25T03:58:02.950328+00:00",
+  "source": {
+    "repository": "Zenodo",
+    "record_id": "7655130",
+    "record_api": "https://zenodo.org/api/records/7655130",
+    "record_doi": "10.5281/zenodo.7655130",
+    "dataset_title": "BioASQ-QA: A manually curated corpus for Biomedical Question Answering",
+    "dataset_version": "BioASQ11",
+    "file_name": "training11b.json"
+  },
+  "local": {
+    "relative_path": "data\\raw\\bioasq11\\training11b.json",
+    "size_bytes": 37639648,
+    "expected_md5": "fc1fe03831b69157c82a746337c00712",
+    "observed_md5": "fc1fe03831b69157c82a746337c00712",
+    "checksum_ok": true
+  }
+}

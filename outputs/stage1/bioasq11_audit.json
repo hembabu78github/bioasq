@@ -1,0 +1,99 @@
+{
+  "generated_at_utc": "2026-07-25T03:58:04.007621+00:00",
+  "dataset_relative_path": "data\\raw\\bioasq11\\training11b.json",
+  "question_count": 4719,
+  "question_type_counts": {
+    "factoid": 1417,
+    "list": 901,
+    "summary": 1130,
+    "yesno": 1271
+  },
+  "missing_or_empty_required_fields": {},
+  "duplicate_id_count": 0,
+  "duplicate_ids": [],
+  "duplicate_normalised_body_group_count": 5,
+  "duplicate_normalised_body_question_count": 10,
+  "duplicate_body_examples": [
+    {
+      "normalised_body": "what is the mode of inheritance of facioscapulohumeral muscular dystrophy (fshd)?",
+      "ids": [
+        "52bf19c503868f1b06000001",
+        "52e8e93498d023950500001e"
+      ]
+    },
+    {
+      "normalised_body": "are thyroid hormone receptor alpha1 mutations implicated in thyroid hormone resistance syndrome?",
+      "ids": [
+        "52f7c4bd2059c6d71c00002d",
+        "52ecd56198d023950500002b"
+      ]
+    },
+    {
+      "normalised_body": "have thyronamines effects on fat tissue?",
+      "ids": [
+        "532c147bd6d3ac6a3400001e",
+        "534bf050aeec6fbd07000015"
+      ]
+    },
+    {
+      "normalised_body": "what is the association between moon cycle and rupture risk of intracranial aneurysms?",
+      "ids": [
+        "530cefaaad0bf1360c000006",
+        "52fc94932059c6d71c000072"
+      ]
+    },
+    {
+      "normalised_body": "could catecholaminergic polymorphic ventricular tachycardia (cpvt) cause sudden cardiac death?",
+      "ids": [
+        "52e8e96698d023950500001f",
+        "530cf4fe960c95ad0c000003"
+      ]
+    }
+  ],
+  "unique_document_count": 40221,
+  "unique_normalised_snippet_count": 52699,
+  "duplicate_snippet_occurrence_count": 4096,
+  "malformed_snippet_count": 0,
+  "exact_answer_shape_counts": {
+    "flat_list": 1417,
+    "list_of_lists": 901,
+    "missing": 1130,
+    "string": 1271
+  },
+  "distributions": {
+    "documents_per_question": {
+      "count": 4719,
+      "min": 1,
+      "median": 6,
+      "mean": 9.029,
+      "p90": 21.0,
+      "max": 157
+    },
+    "snippets_per_question": {
+      "count": 4719,
+      "min": 1,
+      "median": 8,
+      "mean": 12.035,
+      "p90": 28.0,
+      "max": 121
+    },
+    "question_words": {
+      "count": 4719,
+      "min": 2,
+      "median": 8,
+      "mean": 8.604,
+      "p90": 13.0,
+      "max": 30
+    },
+    "snippet_words": {
+      "count": 56795,
+      "min": 1,
+      "median": 24,
+      "mean": 28.586,
+      "p90": 47.0,
+      "max": 401
+    }
+  },
+  "retrieval_design_warning": "The file contains question-linked gold documents and snippets, not a complete PubMed corpus. The later retrieval design must define a candidate corpus and must not provide test-question gold evidence directly to the retriever.",
+  "split_status": "No final train/development/test split has been created."
+}

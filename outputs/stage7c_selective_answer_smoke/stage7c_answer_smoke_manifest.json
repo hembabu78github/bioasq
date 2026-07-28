@@ -1,0 +1,17 @@
+{
+  "generated_at_utc": "2026-07-26T03:08:58.347641+00:00",
+  "question_count": 6,
+  "hybrid_baseline_answer_count": 6,
+  "selective_graph_answer_count": 2,
+  "total_answer_count": 8,
+  "paired_graph_question_ids": [
+    "S7Q-009",
+    "S7Q-011"
+  ],
+  "graph_scope": "eligible multi-entity list questions only",
+  "expected_generation_calls": 8,
+  "expected_verifier_calls": 8,
+  "new_graph_calls": 0,
+  "sample_sha256": "27bf629b6baa0f80fc3fbb407cb0ac28743c73b2a6a7e35e66986d884bcf7518",
+  "scientific_note": "This is a development technical answer smoke, not a final performance estimate. The same-model verifier is not human gold."
+}

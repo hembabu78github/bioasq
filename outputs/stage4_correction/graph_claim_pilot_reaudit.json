@@ -1,0 +1,34 @@
+{
+  "generated_at_utc": "2026-07-25T13:30:48.118867+00:00",
+  "original_record_count": 12,
+  "schema_alias_question_variants": [
+    {
+      "question_id": "602c1b141cb411341a00011c",
+      "variant": "text_only"
+    },
+    {
+      "question_id": "602c1b141cb411341a00011c",
+      "variant": "graph_assisted"
+    },
+    {
+      "question_id": "530e1c985937551c09000004",
+      "variant": "text_only"
+    },
+    {
+      "question_id": "530e1c985937551c09000004",
+      "variant": "graph_assisted"
+    }
+  ],
+  "incomplete_verification_question_variants": [
+    {
+      "question_id": "5172e9448ed59a060a000018",
+      "variant": "graph_assisted",
+      "claim_count": 4,
+      "returned_verification_count": 1
+    }
+  ],
+  "selection_issue": "All 12 selected questions were high-uncertainty, retrieval-hard cases and all used hybrid_bge. The feasibility pilot therefore does not compare risk strata or agent routes.",
+  "graph_generation_issue": "Text-only and graph-assisted final answer strings were identical for all 12 of 12 questions. The current pilot does not demonstrate that graph reasoning changed answer generation.",
+  "verifier_independence_issue": "The same Groq model family generated and verified the claims. Independent manual labels and preferably a distinct verifier model are required.",
+  "corrected_summary_relative_path": "outputs\\stage4_correction\\graph_claim_pilot_summary_corrected.json"
+}

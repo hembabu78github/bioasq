@@ -1,0 +1,46 @@
+{
+  "protocol_version": "stage7f_sealed_test_v1",
+  "created_at_utc": "2026-07-26T15:43:42.594608+00:00",
+  "one_time_sealed_test_evaluation": true,
+  "selected_route": "bge_text_only",
+  "expected_test_question_count": 706,
+  "expected_test_type_counts": {
+    "total": 706,
+    "factoid": 212,
+    "list": 135,
+    "summary": 169,
+    "yesno": 190
+  },
+  "test_ids_sha256": "925e8029179c57a6f7c3bb6a1c120d90dd3c497a968c1b2a66fe65df5b17c0f3",
+  "model": "openai/gpt-oss-20b",
+  "temperature": 0,
+  "seed": 20260725,
+  "generator_prompt_version": "stage7d_evidence_closed_v1",
+  "evidence_count": 5,
+  "verifier": "frozen hardened same-model verifier",
+  "release_rule": "Release only when the generator did not abstain and every atomic claim is supported by displayed evidence E1-E5.",
+  "answer_metrics": {
+    "factoid": "lenient reciprocal rank; strict sensitivity",
+    "list": "lenient item-level F1; strict sensitivity",
+    "summary": "ROUGE-L F1",
+    "yesno": "accuracy",
+    "overall": "macro mean across four question types"
+  },
+  "retrieval_metrics": [
+    "Hit@1",
+    "Hit@5",
+    "Hit@10",
+    "Hit@20",
+    "MRR@20"
+  ],
+  "confidence_interval": "10,000 stratified bootstrap samples for the deployed primary macro composite, seed 20260726.",
+  "batch_size": 6,
+  "expected_batch_count": 118,
+  "no_post_test_tuning": true,
+  "accepted_stage7e_hashes": {
+    "stage7e_gold_per_question_jsonl_sha256": "d407f30b346f2ddbd4a563eaeb9b7e47c0fd9381b9dbdc5e2a82c3cd8842aa89",
+    "stage7e_gold_summary_sha256": "50c4ed370ebb90bf4e1b94888e60f14e282bd15fedccc08fa5f08c92e9d27e7e",
+    "stage7e_gold_validation_report_sha256": "9f365d0e104811b29a26de531b2950948a91c0393f610477d9eebb54bf2b5144",
+    "stage7e_text_route_decision_sha256": "6a6d420c3c250c5861bbdfb8b9634b59a36114ac3cf8cde3f98d95a104ff7fe8"
+  }
+}

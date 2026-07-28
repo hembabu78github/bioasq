@@ -1,0 +1,29 @@
+{
+  "generated_at_utc": "2026-07-26T15:47:07.728328+00:00",
+  "one_time_sealed_test_evaluation": true,
+  "sealed_test_accessed": true,
+  "test_gold_answers_accessed": false,
+  "test_gold_relevance_accessed": false,
+  "test_question_count": 706,
+  "test_question_type_counts": {
+    "factoid": 212,
+    "yesno": 190,
+    "list": 135,
+    "summary": 169
+  },
+  "selected_route": "bge_text_only",
+  "model": "openai/gpt-oss-20b",
+  "prompt_version": "stage7d_evidence_closed_v1",
+  "evidence_count": 5,
+  "job_count": 706,
+  "batch_size": 6,
+  "batch_count": 118,
+  "test_ids_sha256": "925e8029179c57a6f7c3bb6a1c120d90dd3c497a968c1b2a66fe65df5b17c0f3",
+  "stage7e_decision_sha256": "6a6d420c3c250c5861bbdfb8b9634b59a36114ac3cf8cde3f98d95a104ff7fe8",
+  "corpus_sha256": "fe11c28439d50b2213fe602f7dd60a55be82da7bb4857c4da9f81159520c93e1",
+  "embedding_ids_sha256": "89c22958af0736aaaad045dc48601be1ddcff0924b09d69c045fc230d08969ad",
+  "rankings_sha256": "a6f747df08d929a11ba3ca679f3ee28e7ca6bc86f0772b03e030b144b9aca54a",
+  "jobs_sha256": "78ccc61b8e08e91065cdd716be65c9a3add757d104e2adf42743ffb3e5c5ef01",
+  "batch_plan_sha256": "5bc245dafbf596d0aebeb490b79d7bdae42b30054090ac2c7f47829f17b5636f",
+  "post_access_rule": "No model, route, prompt, verifier, evidence count, threshold or metric may be changed after this manifest is created."
+}
